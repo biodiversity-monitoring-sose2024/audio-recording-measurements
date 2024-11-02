@@ -1,0 +1,2514 @@
+[0;32mI (2020) main: ESP_WIFI_MODE_STA[0m
+D (2020) esp_netif_lwip: LwIP stack has been initialized[0m
+D (2020) esp_netif_lwip: esp-netif has been successfully initialized[0m
+D (2030) event: running task for loop 0x3ffc819c[0m
+D (2030) event: created task for loop 0x3ffc819c[0m
+D (2040) event: created event loop 0x3ffc819c[0m
+D (2040) esp_netif_lwip: check: remote, if=0x3ffbc320 fn=0x40119000[0m
+D (2050) esp_netif_objects: esp_netif_add_to_list_unsafe netif added successfully (total netifs: 1)[0m
+D (2060) esp_netif_lwip: call api in lwip: ret=0x0, give sem[0m
+D (2060) nvs: nvs_open_from_partition misc 1[0m
+I (2080) wifi:wifi driver task: 3ffcb6b8, prio:23, stack:6656, core=0
+D (2120) nvs: nvs_open_from_partition nvs.net80211 1[0m
+D (2130) nvs: nvs_get opmode 1[0m
+D (2130) nvs: nvs_get_str_or_blob sta.ssid[0m
+D (2140) nvs: nvs_get sta.authmode 1[0m
+D (2140) nvs: nvs_get_str_or_blob sta.pswd[0m
+D (2140) nvs: nvs_get_str_or_blob sta.pmk[0m
+D (2150) nvs: nvs_get sta.chan 1[0m
+D (2150) nvs: nvs_get auto.conn 1[0m
+D (2150) nvs: nvs_get bssid.set 1[0m
+D (2160) nvs: nvs_get_str_or_blob sta.bssid[0m
+D (2160) nvs: nvs_get sta.lis_intval 2[0m
+D (2170) nvs: nvs_get sta.phym 1[0m
+D (2170) nvs: nvs_get sta.phybw 1[0m
+D (2170) nvs: nvs_get_str_or_blob sta.apsw[0m
+D (2180) nvs: nvs_get_str_or_blob sta.apinfo[0m
+D (2180) nvs: nvs_get sta.scan_method 1[0m
+D (2190) nvs: nvs_get sta.sort_method 1[0m
+D (2190) nvs: nvs_get sta.minrssi 1[0m
+D (2190) nvs: nvs_get sta.minauth 1[0m
+D (2200) nvs: nvs_get sta.pmf_e 1[0m
+D (2200) nvs: nvs_get sta.pmf_r 1[0m
+D (2200) nvs: nvs_get sta.btm_e 1[0m
+D (2210) nvs: nvs_get sta.rrm_e 1[0m
+D (2210) nvs: nvs_get sta.mbo_e 1[0m
+D (2210) nvs: nvs_get_str_or_blob ap.ssid[0m
+D (2220) nvs: nvs_get_str_or_blob ap.passwd[0m
+D (2220) nvs: nvs_get_str_or_blob ap.pmk[0m
+D (2230) nvs: nvs_get ap.chan 1[0m
+D (2230) nvs: nvs_get ap.authmode 1[0m
+D (2230) nvs: nvs_get ap.hidden 1[0m
+D (2240) nvs: nvs_get ap.max.conn 1[0m
+D (2240) nvs: nvs_get bcn.interval 2[0m
+D (2240) nvs: nvs_get ap.phym 1[0m
+D (2250) nvs: nvs_get ap.phybw 1[0m
+D (2250) nvs: nvs_get ap.sndchan 1[0m
+D (2250) nvs: nvs_get ap.pmf_e 1[0m
+D (2260) nvs: nvs_get ap.pmf_r 1[0m
+D (2260) nvs: nvs_get ap.p_cipher 1[0m
+D (2260) nvs: nvs_get lorate 1[0m
+D (2270) nvs: nvs_get_str_or_blob country[0m
+D (2270) nvs: nvs_get ap.ftm_r 1[0m
+D (2270) nvs: nvs_get sta.ft 1[0m
+D (2280) nvs: nvs_get sta.owe 1[0m
+D (2280) nvs: nvs_get sta.trans_d 1[0m
+D (2280) nvs: nvs_get sta.sae_h2e 1[0m
+D (2290) nvs: nvs_get sta.sae_pk_mode 1[0m
+D (2290) nvs: nvs_get sta.bss_retry 1[0m
+D (2290) nvs: nvs_get_str_or_blob sta.owe_data[0m
+D (2300) nvs: nvs_get sta.he_dcm 1[0m
+D (2300) nvs: nvs_get sta.he_dcm_c_tx 1[0m
+D (2310) nvs: nvs_get sta.he_dcm_c_rx 1[0m
+D (2310) nvs: nvs_get sta.he_mcs9_d 1[0m
+D (2310) nvs: nvs_get sta.he_su_b_d 1[0m
+D (2320) nvs: nvs_get sta.he_su_b_f_d 1[0m
+D (2320) nvs: nvs_get sta.he_mu_b_f_d 1[0m
+D (2330) nvs: nvs_get sta.he_cqi_f_d 1[0m
+D (2330) nvs: nvs_get_str_or_blob sta.sae_h2e_id[0m
+D (2330) nvs: nvs_get ap.sae_h2e 1[0m
+D (2340) nvs: nvs_get_str_or_blob ap.pmk_info[0m
+D (2340) nvs: nvs_get nan.phym 1[0m
+D (2350) nvs: nvs_get sta.pwr_reset 1[0m
+D (2350) nvs: nvs_get band 1[0m
+D (2350) nvs: nvs_set ap.sndchan 1 1[0m
+I (2360) wifi:wifi firmware version: ccaebfa
+I (2360) wifi:wifi certification version: v7.0
+I (2360) wifi:config NVS flash: enabled
+I (2370) wifi:config nano formating: disabled
+I (2370) wifi:Init data frame dynamic rx buffer num: 32
+I (2380) wifi:Init static rx mgmt buffer num: 5
+I (2380) wifi:Init management short buffer num: 32
+I (2380) wifi:Init dynamic tx buffer num: 32
+I (2390) wifi:Init static rx buffer size: 1600
+I (2390) wifi:Init static rx buffer num: 10
+I (2400) wifi:Init dynamic rx buffer num: 32
+D (2400) wifi:Reset scan defaults in ms : min,max,passive,chan_dwell :(0,120,360,30)
+[0;32mI (2410) wifi_init: rx ba win: 6[0m
+[0;32mI (2410) wifi_init: accept mbox: 6[0m
+[0;32mI (2420) wifi_init: tcpip mbox: 32[0m
+[0;32mI (2420) wifi_init: udp mbox: 6[0m
+[0;32mI (2420) wifi_init: tcp mbox: 6[0m
+[0;32mI (2430) wifi_init: tcp tx win: 5760[0m
+[0;32mI (2430) wifi_init: tcp rx win: 5760[0m
+[0;32mI (2440) wifi_init: tcp mss: 1440[0m
+[0;32mI (2440) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (2450) wifi_init: WiFi RX IRAM OP enabled[0m
+D (2450) nvs: nvs_get opmode 1[0m
+D (2450) wifi:clear blacklist
+D (2460) nvs: nvs_get_str_or_blob sta.ssid[0m
+D (2460) nvs: nvs_get sta.pmf_e 1[0m
+[0;32mI (2460) phy_init: phy_version 4830,54550f7,Jun 20 2024,14:22:08[0m
+D (2470) phy_init: loading PHY init data from application binary[0m
+D (2480) nvs: nvs_open_from_partition phy 0[0m
+D (2480) nvs: nvs_get cal_version 4[0m
+D (2480) nvs: nvs_get_str_or_blob cal_mac[0m
+D (2540) nvs: nvs_get_str_or_blob cal_data[0m
+D (2550) nvs: nvs_close 3[0m
+D (2660) wifi:filter: set rx policy=0
+I (2660) wifi:mode : sta (7c:87:ce:cc:ea:f8)
+I (2660) wifi:enable tsf
+D (2660) wifi:filter: set rx policy=1
+D (2660) wifi:connect status 0 -> 0
+D (2670) event: running post WIFI_EVENT:43 with handler 0x400e1b48 and context 0x3ffd1400 on loop 0x3ffc819c[0m
+D (2670) event: running post WIFI_EVENT:2 with handler 0x4011bafc and context 0x3ffc92b4 on loop 0x3ffc819c[0m
+D (2680) wifi_init_default: wifi_start esp-netif:0x3ffc90c4 event-id2[0m
+D (2690) wifi_init_default: WIFI mac address: 7c 87 ce cc ea f8[0m
+D (2700) esp_netif_lwip: check: remote, if=0x3ffc90c4 fn=0x401189d0[0m
+[0;32mI (2700) wifi station: wifi_init_sta finished.[0m
+D (2700) esp_netif_lwip: call api in lwip: ret=0x0, give sem[0m
+D (2710) esp_netif_handlers: esp_netif action has started with netif0x3ffc90c4 from event_id=2[0m
+D (2720) esp_netif_lwip: check: remote, if=0x3ffc90c4 fn=0x401192b8[0m
+D (2720) esp_netif_lwip: esp_netif_start_api 0x3ffc90c4[0m
+D (2730) esp_netif_lwip: esp_netif_get_hostname esp_netif:0x3ffc90c4[0m
+D (2740) esp_netif_lwip: check: local, if=0x3ffc90c4 fn=0x40119a14[0m
+D (2750) esp_netif_lwip: esp_netif_update_default_netif_lwip 0x3ffc90c4[0m
+D (2750) esp_netif_lwip: call api in lwip: ret=0x0, give sem[0m
+D (2760) event: running post WIFI_EVENT:2 with handler 0x400e1b48 and context 0x3ffd1400 on loop 0x3ffc819c[0m
+D (2770) wifi:Start wifi connect
+D (2770) wifi:connect status 0 -> 0
+D (2770) wifi:connect chan=0
+D (2780) wifi:first chan=1
+D (2780) wifi:connect status 0 -> 1
+D (2780) wifi:filter: set rx policy=3
+D (2790) wifi:clear scan ap list
+D (2790) wifi:start scan: type=0x50f, priority=2, cb=0x401449dc, arg=0x0, ss_state=0x1, time=133011, index=0
+D (2800) wifi:perform scan: ss_state=0x9, chan<1,0>, dur<0,120>
+D (2810) wifi:rsn valid: gcipher=3 ucipher=3 akm=5 mac=dc:a6:32:5a:01:29
+D (2810) wifi:profile match: ss_state=0x7
+D (2810) wifi:scan end: arg=0x3ffb65ce, status=0, ss_state=0x7
+D (2820) wifi:find first mathched ssid, scan done
+D (2820) wifi:filter: set rx policy=4
+D (2830) wifi:first chan=1
+D (2830) wifi:handoff_cb: status=0
+D (2830) wifi:ap found, mac=dc:a6:32:5a:01:29
+D (2840) wifi:going for connection with bssid=dc:a6:32:5a:01:29
+D (2840) wifi:new_bss=0x3ffb91f0, cur_bss=0x0, new_chan=<1,0>, cur_chan=1
+D (2850) wifi:filter: set rx policy=5
+I (2850) wifi:new:<1,0>, old:<1,0>, ap:<255,255>, sta:<1,0>, prof:1, snd_ch_cfg:0x0
+D (2860) wifi:connect_op: status=0, auth=5, cipher=3 
+D (2870) wifi:auth mode is not none
+D (2870) wifi:connect_bss: auth=1, reconnect=0
+I (2870) wifi:state: init -> auth (0xb0)
+D (2880) nvs: nvs_get sta.pwr_reset 1[0m
+D (2880) wifi:start 1s AUTH timer
+D (2880) wifi:clear scan ap list
+D (2890) wifi:recv auth: seq=2, status=0, algo=0
+I (2890) wifi:state: auth -> assoc (0x0)
+D (2890) nvs: nvs_get sta.pwr_reset 1[0m
+D (2900) wifi:restart connect 1s timer for assoc
+D (2910) wifi:recv assoc: type=0x10
+D (2910) wifi:filter: set rx policy=6
+I (2910) wifi:state: assoc -> run (0x10)
+D (2910) nvs: nvs_get sta.pwr_reset 1[0m
+D (2920) wifi:start 10s connect timer for 4 way handshake
+I (2930) wifi:connected with test-net, aid = 1, channel 1, BW20, bssid = dc:a6:32:5a:01:29
+I (2930) wifi:security: WPA2-PSK, phy: bgn, rssi: -48
+D (2940) wifi:remove all except dc:a6:32:5a:01:29 from rc list
+D (2940) wifi:clear blacklist
+D (2940) nvs: nvs_set sta.chan 1 1[0m
+D (2950) nvs: nvs_set_blob sta.apinfo 700[0m
+D (2950) wifi:filter: set rx policy=7
+I (2960) wifi:pm start, type: 1
+
+I (2960) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us
+D (2970) wifi:Send sta connected event
+D (2970) wifi:connect status 1 -> 5
+D (2970) wifi:obss scan is disabled
+D (2980) wifi:start obss scan: obss scan is stopped
+D (2980) event: running post WIFI_EVENT:4 with handler 0x4011bb2c and context 0x3ffc9314 on loop 0x3ffc819c[0m
+D (2990) esp_netif_handlers: esp_netif action connected with netif0x3ffc90c4 from event_id=4[0m
+I (2990) wifi:D (3000) esp_netif_lwip: check: remote, if=0x3ffc90c4 fn=0x4011967c[0m
+D (3010) esp_netif_lwip: esp_netif_up_api esp_netif:0x3ffc90c4[0m
+dp: 2, bi: 102400, li: 4, scale listen interval from 307200 us to 409600 us
+D (3010) esp_netif_lwip: check: local, if=0x3ffc90c4 fn=0x40119a14[0m
+I (3020) wifi:D (3030) esp_netif_lwip: esp_netif_update_default_netif_lwip 0x3ffc90c4[0m
+AP's beacon interval = 102400 us, DTIM period = 2
+D (3040) esp_netif_lwip: call api in lwip: ret=0x0, give sem[0m
+D (3040) esp_netif_lwip: check: remote, if=0x3ffc90c4 fn=0x40119538[0m
+D (3050) esp_netif_lwip: esp_netif_dhcpc_start_api esp_netif:0x3ffc90c4[0m
+D (3060) esp_netif_lwip: esp_netif_start_ip_lost_timer esp_netif:0x3ffc90c4[0m
+D (3060) esp_netif_lwip: if0x3ffc90c4 start ip lost tmr: interval=120[0m
+D (3070) esp_netif_lwip: starting dhcp client[0m
+D (3080) wifi:eb is dhcp or dns sport = 68, dport = 67
+D (3080) esp_netif_lwip: call api in lwip: ret=0x0, give sem[0m
+D (3090) event: running post WIFI_EVENT:4 with handler 0x400e1b48 and context 0x3ffd1400 on loop 0x3ffc819c[0m
+D (3100) wifi:eb is dhcp or dns sport = 68, dport = 67
+I (3100) wifi:<ba-add>idx:0 (ifx:0, dc:a6:32:5a:01:29), tid:6, ssn:0, winSize:64
+D (4080) esp_netif_lwip: esp_netif_internal_dhcpc_cb lwip-netif:0x3ffc913c[0m
+D (4080) esp_netif_lwip: if0x3ffc90c4 ip changed=1[0m
+D (4080) event: running post IP_EVENT:0 with handler 0x4011b94c and context 0x3ffc93e8 on loop 0x3ffc819c[0m
+D (4090) wifi_init_default: Got IP wifi default handler entered[0m
+D (4100) esp_netif_handlers: esp_netif action got_ip with netif0x3ffc90c4 from event_id=0[0m
+[0;32mI (4110) esp_netif_handlers: sta ip: 10.3.141.218, mask: 255.255.255.0, gw: 10.3.141.1[0m
+D (4110) event: running post IP_EVENT:0 with handler 0x400e1b48 and context 0x3ffd1420 on loop 0x3ffc819c[0m
+[0;32mI (4120) wifi station: got ip:10.3.141.218[0m
+[0;32mI (4130) wifi station: connected to ap SSID:test-net password:SoSe2024[0m
+[0;32mI (4140) gpio: GPIO[19]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:3 [0m
+[0;31mE (4150) gpio: gpio_install_isr_service(502): GPIO isr service already installed[0m
+[0;33mW (4150) i2c_bus_v2: I2C master handle is NULL, will create new one[0m
+D (4160) i2c.common: new bus(0) at 0x3ffd2334[0m
+[0;32mI (4170) gpio: GPIO[18]| InputEn: 1| OutputEn: 1| OpenDrain: 1| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (4170) gpio: GPIO[23]| InputEn: 1| OutputEn: 1| OpenDrain: 1| Pullup: 1| Pulldown: 0| Intr:0 [0m
+D (4180) i2c.common: bus clock source frequency: 80000000hz[0m
+[0;32mI (4210) gpio: GPIO[21]| InputEn: 0| OutputEn: 1| OpenDrain: 0| Pullup: 0| Pulldown: 0| Intr:0 [0m
+[0;32mI (4210) ES8388_DRIVER: init,out:02, in:00[0m
+D (4220) ES8388_DRIVER: Set volume:70 reg_value:0x2a dB:-21.0[0m
+D (4220) recorder: Configuring the audio board[0m
+[0;32mI (4220) AUDIO_HAL: Codec mode is 1, Ctrl:1[0m
+D (4230) ES8388_DRIVER: start default is decode mode:1[0m
+D (4230) ES8388_DRIVER: Set volume:100 reg_value:0x0c dB:-6.0[0m
+D (4240) recorder: Creating pipeline[0m
+D (4240) i2s_common: rx channel is registered on I2S0 successfully[0m
+D (4250) i2s_common: DMA malloc info: dma_desc_num = 3, dma_desc_buf_size = dma_frame_num * slot_num * data_bit_width = 624[0m
+D (4260) i2s_std: Clock division info: [sclk] 160000000 Hz [mdiv] 13 [mclk] 12288000 Hz [bdiv] 8 [bclk] 1536000 Hz[0m
+D (4270) i2s_common: MCLK is pinned to GPIO0 on I2S0[0m
+D (4280) i2s_std: The rx channel on I2S0 has been initialized to STD mode successfully[0m
+D (4290) i2s_common: i2s rx channel enabled[0m
+D (4290) i2s_common: i2s rx channel disabled[0m
+D (4300) i2s_std: Clock division info: [sclk] 160000000 Hz [mdiv] 13 [mclk] 12288000 Hz [bdiv] 8 [bclk] 1536000 Hz[0m
+D (4310) i2s_common: i2s rx channel enabled[0m
+D (4310) WAV_ENCODER: wav_encoder_init[0m
+D (4320) recorder: Ensuring paths exist[0m
+[0;32mI (4320) main: Recording disabled![0m
+D (4320) tcp_client: Starting background threads...[0m
+D (4330) tcp_client: Send queue empty[0m
+D (4330) get_files: Found file 17273626.wav[0m
+D (4340) get_files: Found file 17273627.wav[0m
+D (4340) get_files: Found file 17273628.wav[0m
+D (4340) get_files: Found file 17273629.wav[0m
+D (4350) get_files: Found file 17273630.wav[0m
+D (4350) get_files: Found file 17273631.wav[0m
+D (4360) get_files: Found file 17273632.wav[0m
+D (4360) get_files: Found file 17273633.wav[0m
+D (4360) get_files: Found file 17273634.wav[0m
+D (4370) get_files: Found file 17273635.wav[0m
+D (4370) get_files: Found file 17273636.wav[0m
+D (4380) get_files: Found file 17273637.wav[0m
+D (4380) get_files: Found file 17273638.wav[0m
+D (4390) get_files: Found file 17273639.wav[0m
+D (4390) get_files: Found file 17273640.wav[0m
+D (4400) get_files: Found file 17273641.wav[0m
+D (4400) get_files: Found file 17273642.wav[0m
+D (4400) get_files: Found file 17273643.wav[0m
+D (4410) get_files: Found file 17273644.wav[0m
+D (4410) get_files: Found file 17273645.wav[0m
+D (4420) get_files: Found file 17273646.wav[0m
+D (4420) get_files: Found file 17273647.wav[0m
+D (4420) get_files: Found file 17273648.wav[0m
+D (4430) get_files: Found file 17273649.wav[0m
+D (4430) get_files: Found file 17273650.wav[0m
+D (4440) get_files: Found file 17273651.wav[0m
+D (4440) get_files: Found file 17273652.wav[0m
+D (4450) get_files: Found file 17273653.wav[0m
+D (4450) get_files: Found file 17273654.wav[0m
+D (4450) get_files: Found file 17273655.wav[0m
+D (4460) get_files: Found file 17273656.wav[0m
+D (4460) get_files: Found file 17273657.wav[0m
+D (4470) get_files: Found file 17273658.wav[0m
+D (4470) get_files: Found file 17273659.wav[0m
+D (4480) get_files: Found file 17273660.wav[0m
+D (4480) get_files: Found file 17273661.wav[0m
+D (4480) get_files: Found file 17273662.wav[0m
+D (4490) get_files: Found file 17273663.wav[0m
+D (4490) get_files: Found file 17273664.wav[0m
+D (4500) get_files: Found file 17273665.wav[0m
+D (4500) get_files: Found file 17273666.wav[0m
+D (4510) get_files: Found file 17273667.wav[0m
+D (4510) get_files: Found file 17273668.wav[0m
+D (4510) get_files: Found file 17273669.wav[0m
+D (4520) tcp_client: Enqueuing /sdcard/store/17273626.wav to be sent...[0m
+D (4530) tcp_client: Enqueuing /sdcard/store/17273627.wav to be sent...[0m
+D (4550) tcp_client: Enqueuing /sdcard/store/17273628.wav to be sent...[0m
+D (4560) tcp_client: Enqueuing /sdcard/store/17273629.wav to be sent...[0m
+D (4570) tcp_client: Enqueuing /sdcard/store/17273630.wav to be sent...[0m
+D (4580) tcp_client: Enqueuing /sdcard/store/17273631.wav to be sent...[0m
+D (4590) tcp_client: Enqueuing /sdcard/store/17273632.wav to be sent...[0m
+D (4610) tcp_client: Enqueuing /sdcard/store/17273633.wav to be sent...[0m
+D (4620) tcp_client: Enqueuing /sdcard/store/17273634.wav to be sent...[0m
+D (4630) tcp_client: Enqueuing /sdcard/store/17273635.wav to be sent...[0m
+D (4640) tcp_client: Enqueuing /sdcard/store/17273636.wav to be sent...[0m
+D (4650) tcp_client: Enqueuing /sdcard/store/17273637.wav to be sent...[0m
+D (4670) tcp_client: Enqueuing /sdcard/store/17273638.wav to be sent...[0m
+D (4680) tcp_client: Enqueuing /sdcard/store/17273639.wav to be sent...[0m
+D (4690) tcp_client: Enqueuing /sdcard/store/17273640.wav to be sent...[0m
+D (4700) tcp_client: Enqueuing /sdcard/store/17273641.wav to be sent...[0m
+D (4720) tcp_client: Enqueuing /sdcard/store/17273642.wav to be sent...[0m
+D (4730) tcp_client: Enqueuing /sdcard/store/17273643.wav to be sent...[0m
+D (4740) tcp_client: Enqueuing /sdcard/store/17273644.wav to be sent...[0m
+D (4760) tcp_client: Enqueuing /sdcard/store/17273645.wav to be sent...[0m
+D (4770) tcp_client: Send queue too large, waiting...[0m
+I (8320) wifi:<ba-add>idx:1 (ifx:0, dc:a6:32:5a:01:29), tid:0, ssn:2, winSize:64
+D (14330) tcp_client: In queue: 30[0m
+D (14340) socket: Trying to create socket...[0m
+D (14340) tcp_client: Request type 30 == 30: 1[0m
+D (14340) socket: Socket successfully created with file descriptor: 54[0m
+[0;33mW (14340) tcp_client: Config request already queued[0m
+D (14350) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (14360) tcp_client: Sending payload of type 10...[0m
+D (14370) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (14370) tcp_client: Waiting for payload of size 1[0m
+D (14370) tcp_client: Got byte: 01[0m
+[0;32mI (14370) tcp_client: Got response type 01[0m
+D (14380) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (14380) tcp_client: Sending payload of type 30...[0m
+D (14390) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (14440) tcp_client: Waiting for payload of size 15[0m
+D (14440) tcp_client: Got byte: 03[0m
+D (14440) tcp_client: Got byte: 00[0m
+D (14440) tcp_client: Got byte: 00[0m
+D (14440) tcp_client: Got byte: 00[0m
+D (14440) tcp_client: Got byte: 00[0m
+D (14450) tcp_client: Got byte: 00[0m
+D (14450) tcp_client: Got byte: 00[0m
+D (14450) tcp_client: Got byte: 00[0m
+D (14460) tcp_client: Got byte: 00[0m
+D (14460) tcp_client: Got byte: 00[0m
+D (14470) tcp_client: Got byte: 01[0m
+D (14470) tcp_client: Got byte: 0a[0m
+D (14470) tcp_client: Got byte: 03[0m
+D (14480) tcp_client: Got byte: 8d[0m
+D (14480) tcp_client: Got byte: 01[0m
+[0;32mI (14480) tcp_client: Got response type 03[0m
+[0;32mI (14490) tcp_client: Timeslot changed, new one is in 0 seconds.[0m
+D (14490) tcp_client: Got timeslot in 0, length of addresses 1[0m
+D (14500) tcp_client: Got byte: 03[0m
+D (14500) tcp_client: Got byte: 00[0m
+D (14510) tcp_client: Got byte: 00[0m
+D (14510) tcp_client: Got byte: 00[0m
+D (14510) tcp_client: Got byte: 00[0m
+D (14520) tcp_client: Got byte: 00[0m
+D (14520) tcp_client: Got byte: 00[0m
+D (14520) tcp_client: Got byte: 00[0m
+D (14530) tcp_client: Got byte: 00[0m
+D (14530) tcp_client: Got byte: 01[0m
+D (14530) tcp_client: Got byte: 00[0m
+D (14540) tcp_client: Got byte: 0a[0m
+D (14540) tcp_client: Got byte: 03[0m
+D (14550) tcp_client: Got byte: 8d[0m
+D (14550) tcp_client: Got byte: 01[0m
+D (14550) tcp_client: Got new server 10.3.141.1:5001 but we knew about that one already![0m
+[0;32mI (14560) tcp_client: Sending payload of type 01...[0m
+D (14570) tcp_client: In queue: 20[0m
+D (14570) socket: Trying to create socket...[0m
+D (14570) socket: Socket successfully created with file descriptor: 54[0m
+D (14580) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (14590) tcp_client: Sending payload of type 10...[0m
+D (14590) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (14600) tcp_client: Waiting for payload of size 1[0m
+D (14600) tcp_client: Got byte: 01[0m
+[0;32mI (14610) tcp_client: Got response type 01[0m
+D (14610) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (14620) tcp_client: Sending payload of type 20...[0m
+D (14630) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (14630) send data: Successfully opened file: /sdcard/queue/17273626.wav[0m
+D (14630) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (14640) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (14650) send data: Sending size 7488064...[0m
+D (14650) send data: Sending header...[0m
+D (14660) send data: Sending data...[0m
+D (14780) get_files: Found file 17273646.wav[0m
+D (14790) get_files: Found file 17273647.wav[0m
+D (14790) get_files: Found file 17273648.wav[0m
+D (14790) get_files: Found file 17273649.wav[0m
+D (14790) get_files: Found file 17273650.wav[0m
+D (14800) get_files: Found file 17273651.wav[0m
+D (14810) get_files: Found file 17273652.wav[0m
+D (14810) get_files: Found file 17273653.wav[0m
+D (14810) get_files: Found file 17273654.wav[0m
+D (14820) get_files: Found file 17273655.wav[0m
+D (14820) get_files: Found file 17273656.wav[0m
+D (14820) get_files: Found file 17273657.wav[0m
+D (14830) get_files: Found file 17273658.wav[0m
+D (14830) get_files: Found file 17273659.wav[0m
+D (14840) get_files: Found file 17273660.wav[0m
+D (14840) get_files: Found file 17273661.wav[0m
+D (14850) get_files: Found file 17273662.wav[0m
+D (14850) get_files: Found file 17273663.wav[0m
+D (14850) get_files: Found file 17273664.wav[0m
+D (14860) get_files: Found file 17273665.wav[0m
+D (14860) get_files: Found file 17273666.wav[0m
+D (14870) get_files: Found file 17273667.wav[0m
+D (14870) get_files: Found file 17273668.wav[0m
+D (14880) get_files: Found file 17273669.wav[0m
+D (14880) tcp_client: Enqueuing /sdcard/store/17273646.wav to be sent...[0m
+D (14900) tcp_client: Send queue too large, waiting...[0m
+D (24320) send data: Finished sending data in 9667 ms[0m
+D (24330) tcp_client: Waiting for size of incoming message.[0m
+D (24350) tcp_client: Request type 20 == 30: 0[0m
+D (24350) tcp_client: Request type 20 == 30: 0[0m
+D (24350) tcp_client: Request type 20 == 30: 0[0m
+D (24350) tcp_client: Request type 20 == 30: 0[0m
+D (24350) tcp_client: Request type 20 == 30: 0[0m
+D (24360) tcp_client: Request type 20 == 30: 0[0m
+D (24360) tcp_client: Request type 20 == 30: 0[0m
+D (24370) tcp_client: Request type 20 == 30: 0[0m
+D (24370) tcp_client: Request type 20 == 30: 0[0m
+D (24380) tcp_client: Request type 20 == 30: 0[0m
+D (24380) tcp_client: Request type 20 == 30: 0[0m
+D (24380) tcp_client: Request type 20 == 30: 0[0m
+D (24390) tcp_client: Request type 20 == 30: 0[0m
+D (24390) tcp_client: Request type 20 == 30: 0[0m
+D (24400) tcp_client: Request type 20 == 30: 0[0m
+D (24400) tcp_client: Request type 20 == 30: 0[0m
+D (24410) tcp_client: Request type 20 == 30: 0[0m
+D (24410) tcp_client: Request type 20 == 30: 0[0m
+D (24420) tcp_client: Request type 20 == 30: 0[0m
+D (24420) tcp_client: Request type 20 == 30: 0[0m
+D (24420) tcp_client: Request type 20 == 30: 0[0m
+[0;32mI (24500) tcp_client: Waiting for payload of size 1[0m
+D (24500) tcp_client: Got byte: 01[0m
+[0;32mI (24500) tcp_client: Got response type 01[0m
+D (24500) tcp_client: Deleting /sdcard/queue/17273626.wav...[0m
+D (24520) tcp_client: In queue: 20[0m
+D (24520) socket: Trying to create socket...[0m
+D (24520) socket: Socket successfully created with file descriptor: 54[0m
+D (24530) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (24540) tcp_client: Sending payload of type 10...[0m
+D (24540) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (24540) tcp_client: Waiting for payload of size 1[0m
+D (24550) tcp_client: Got byte: 01[0m
+[0;32mI (24550) tcp_client: Got response type 01[0m
+D (24560) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (24560) tcp_client: Sending payload of type 20...[0m
+D (24570) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (24580) send data: Successfully opened file: /sdcard/queue/17273627.wav[0m
+D (24580) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (24590) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (24590) send data: Sending size 7488064...[0m
+D (24600) send data: Sending header...[0m
+D (24600) send data: Sending data...[0m
+D (24910) get_files: Found file 17273647.wav[0m
+D (24910) get_files: Found file 17273648.wav[0m
+D (24920) get_files: Found file 17273649.wav[0m
+D (24930) get_files: Found file 17273650.wav[0m
+D (24930) get_files: Found file 17273651.wav[0m
+D (24930) get_files: Found file 17273652.wav[0m
+D (24930) get_files: Found file 17273653.wav[0m
+D (24940) get_files: Found file 17273654.wav[0m
+D (24940) get_files: Found file 17273655.wav[0m
+D (24940) get_files: Found file 17273656.wav[0m
+D (24950) get_files: Found file 17273657.wav[0m
+D (24950) get_files: Found file 17273658.wav[0m
+D (24960) get_files: Found file 17273659.wav[0m
+D (24960) get_files: Found file 17273660.wav[0m
+D (24970) get_files: Found file 17273661.wav[0m
+D (24970) get_files: Found file 17273662.wav[0m
+D (24980) get_files: Found file 17273663.wav[0m
+D (24980) get_files: Found file 17273664.wav[0m
+D (24990) get_files: Found file 17273665.wav[0m
+D (24990) get_files: Found file 17273666.wav[0m
+D (25000) get_files: Found file 17273667.wav[0m
+D (25000) get_files: Found file 17273668.wav[0m
+D (25000) get_files: Found file 17273669.wav[0m
+D (25010) tcp_client: Send queue too large, waiting...[0m
+D (34110) send data: Finished sending data in 9504 ms[0m
+D (34110) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (34330) tcp_client: Waiting for payload of size 1[0m
+D (34330) tcp_client: Got byte: 01[0m
+[0;32mI (34330) tcp_client: Got response type 01[0m
+D (34340) tcp_client: Deleting /sdcard/queue/17273627.wav...[0m
+D (34350) tcp_client: In queue: 20[0m
+D (34360) socket: Trying to create socket...[0m
+D (34360) socket: Socket successfully created with file descriptor: 54[0m
+D (34360) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (34370) tcp_client: Sending payload of type 10...[0m
+D (34370) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (34380) tcp_client: Waiting for payload of size 1[0m
+D (34380) tcp_client: Got byte: 01[0m
+[0;32mI (34390) tcp_client: Got response type 01[0m
+D (34390) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (34400) tcp_client: Sending payload of type 20...[0m
+D (34400) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (34410) send data: Successfully opened file: /sdcard/queue/17273628.wav[0m
+D (34420) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (34420) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (34430) send data: Sending size 7488064...[0m
+D (34430) send data: Sending header...[0m
+D (34430) tcp_client: Request type 20 == 30: 0[0m
+D (34440) send data: Sending data...[0m
+D (34440) tcp_client: Request type 20 == 30: 0[0m
+D (34450) tcp_client: Request type 20 == 30: 0[0m
+D (34450) tcp_client: Request type 20 == 30: 0[0m
+D (34460) tcp_client: Request type 20 == 30: 0[0m
+D (34460) tcp_client: Request type 20 == 30: 0[0m
+D (34470) tcp_client: Request type 20 == 30: 0[0m
+D (34470) tcp_client: Request type 20 == 30: 0[0m
+D (34480) tcp_client: Request type 20 == 30: 0[0m
+D (34490) tcp_client: Request type 20 == 30: 0[0m
+D (34490) tcp_client: Request type 20 == 30: 0[0m
+D (34490) tcp_client: Request type 20 == 30: 0[0m
+D (34500) tcp_client: Request type 20 == 30: 0[0m
+D (34500) tcp_client: Request type 20 == 30: 0[0m
+D (34510) tcp_client: Request type 20 == 30: 0[0m
+D (34510) tcp_client: Request type 20 == 30: 0[0m
+D (34510) tcp_client: Request type 20 == 30: 0[0m
+D (34520) tcp_client: Request type 20 == 30: 0[0m
+D (34520) tcp_client: Request type 20 == 30: 0[0m
+D (34530) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (34530) tcp_client: Config request already queued[0m
+D (35020) get_files: Found file 17273647.wav[0m
+D (35030) get_files: Found file 17273648.wav[0m
+D (35030) get_files: Found file 17273649.wav[0m
+D (35030) get_files: Found file 17273650.wav[0m
+D (35030) get_files: Found file 17273651.wav[0m
+D (35030) get_files: Found file 17273652.wav[0m
+D (35040) get_files: Found file 17273653.wav[0m
+D (35040) get_files: Found file 17273654.wav[0m
+D (35050) get_files: Found file 17273655.wav[0m
+D (35050) get_files: Found file 17273656.wav[0m
+D (35060) get_files: Found file 17273657.wav[0m
+D (35060) get_files: Found file 17273658.wav[0m
+D (35070) get_files: Found file 17273659.wav[0m
+D (35070) get_files: Found file 17273660.wav[0m
+D (35070) get_files: Found file 17273661.wav[0m
+D (35080) get_files: Found file 17273662.wav[0m
+D (35080) get_files: Found file 17273663.wav[0m
+D (35090) get_files: Found file 17273664.wav[0m
+D (35090) get_files: Found file 17273665.wav[0m
+D (35100) get_files: Found file 17273666.wav[0m
+D (35100) get_files: Found file 17273667.wav[0m
+D (35100) get_files: Found file 17273668.wav[0m
+D (35110) get_files: Found file 17273669.wav[0m
+D (35110) tcp_client: Enqueuing /sdcard/store/17273647.wav to be sent...[0m
+D (35130) tcp_client: Send queue too large, waiting...[0m
+D (44280) send data: Finished sending data in 9843 ms[0m
+D (44290) tcp_client: Waiting for size of incoming message.[0m
+D (44550) tcp_client: Request type 20 == 30: 0[0m
+D (44550) tcp_client: Request type 20 == 30: 0[0m
+D (44550) tcp_client: Request type 20 == 30: 0[0m
+D (44550) tcp_client: Request type 20 == 30: 0[0m
+D (44560) tcp_client: Request type 20 == 30: 0[0m
+D (44560) tcp_client: Request type 20 == 30: 0[0m
+D (44560) tcp_client: Request type 20 == 30: 0[0m
+D (44570) tcp_client: Request type 20 == 30: 0[0m
+D (44570) tcp_client: Request type 20 == 30: 0[0m
+[0;32mI (44570) tcp_client: Waiting for payload of size 1[0m
+D (44580) tcp_client: Request type 20 == 30: 0[0m
+D (44580) tcp_client: Request type 20 == 30: 0[0m
+D (44590) tcp_client: Request type 20 == 30: 0[0m
+D (44590) tcp_client: Request type 20 == 30: 0[0m
+D (44600) tcp_client: Request type 20 == 30: 0[0m
+D (44600) tcp_client: Request type 20 == 30: 0[0m
+D (44610) tcp_client: Request type 20 == 30: 0[0m
+D (44610) tcp_client: Request type 20 == 30: 0[0m
+D (44610) tcp_client: Request type 20 == 30: 0[0m
+D (44620) tcp_client: Request type 20 == 30: 0[0m
+D (44620) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (44630) tcp_client: Config request already queued[0m
+D (44640) tcp_client: Got byte: 01[0m
+[0;32mI (44640) tcp_client: Got response type 01[0m
+D (44650) tcp_client: Deleting /sdcard/queue/17273628.wav...[0m
+D (44670) tcp_client: In queue: 20[0m
+D (44670) socket: Trying to create socket...[0m
+D (44670) socket: Socket successfully created with file descriptor: 54[0m
+D (44680) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (44680) tcp_client: Sending payload of type 10...[0m
+D (44690) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (44690) tcp_client: Waiting for payload of size 1[0m
+D (44700) tcp_client: Got byte: 01[0m
+[0;32mI (44700) tcp_client: Got response type 01[0m
+D (44700) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (44710) tcp_client: Sending payload of type 20...[0m
+D (44720) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (44720) send data: Successfully opened file: /sdcard/queue/17273629.wav[0m
+D (44730) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (44730) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (44740) send data: Sending size 7488064...[0m
+D (44750) send data: Sending header...[0m
+D (44750) send data: Sending data...[0m
+D (45140) get_files: Found file 17273648.wav[0m
+D (45140) get_files: Found file 17273649.wav[0m
+D (45140) get_files: Found file 17273650.wav[0m
+D (45140) get_files: Found file 17273651.wav[0m
+D (45140) get_files: Found file 17273652.wav[0m
+D (45150) get_files: Found file 17273653.wav[0m
+D (45150) get_files: Found file 17273654.wav[0m
+D (45160) get_files: Found file 17273655.wav[0m
+D (45160) get_files: Found file 17273656.wav[0m
+D (45170) get_files: Found file 17273657.wav[0m
+D (45170) get_files: Found file 17273658.wav[0m
+D (45170) get_files: Found file 17273659.wav[0m
+D (45180) get_files: Found file 17273660.wav[0m
+D (45180) get_files: Found file 17273661.wav[0m
+D (45190) get_files: Found file 17273662.wav[0m
+D (45190) get_files: Found file 17273663.wav[0m
+D (45200) get_files: Found file 17273664.wav[0m
+D (45200) get_files: Found file 17273665.wav[0m
+D (45200) get_files: Found file 17273666.wav[0m
+D (45210) get_files: Found file 17273667.wav[0m
+D (45210) get_files: Found file 17273668.wav[0m
+D (45220) get_files: Found file 17273669.wav[0m
+D (45220) tcp_client: Enqueuing /sdcard/store/17273648.wav to be sent...[0m
+D (45240) tcp_client: Send queue too large, waiting...[0m
+D (54510) send data: Finished sending data in 9761 ms[0m
+D (54520) tcp_client: Waiting for size of incoming message.[0m
+D (54640) tcp_client: Request type 20 == 30: 0[0m
+D (54640) tcp_client: Request type 20 == 30: 0[0m
+D (54640) tcp_client: Request type 20 == 30: 0[0m
+D (54640) tcp_client: Request type 20 == 30: 0[0m
+D (54650) tcp_client: Request type 20 == 30: 0[0m
+D (54650) tcp_client: Request type 20 == 30: 0[0m
+D (54660) tcp_client: Request type 20 == 30: 0[0m
+D (54660) tcp_client: Request type 20 == 30: 0[0m
+D (54660) tcp_client: Request type 20 == 30: 0[0m
+D (54670) tcp_client: Request type 20 == 30: 0[0m
+D (54670) tcp_client: Request type 20 == 30: 0[0m
+D (54680) tcp_client: Request type 20 == 30: 0[0m
+D (54680) tcp_client: Request type 20 == 30: 0[0m
+D (54690) tcp_client: Request type 20 == 30: 0[0m
+D (54690) tcp_client: Request type 20 == 30: 0[0m
+D (54690) tcp_client: Request type 20 == 30: 0[0m
+D (54700) tcp_client: Request type 20 == 30: 0[0m
+D (54700) tcp_client: Request type 20 == 30: 0[0m
+D (54710) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (54710) tcp_client: Config request already queued[0m
+[0;32mI (54810) tcp_client: Waiting for payload of size 1[0m
+D (54810) tcp_client: Got byte: 01[0m
+[0;32mI (54810) tcp_client: Got response type 01[0m
+D (54820) tcp_client: Deleting /sdcard/queue/17273629.wav...[0m
+D (54840) tcp_client: In queue: 20[0m
+D (54840) socket: Trying to create socket...[0m
+D (54840) socket: Socket successfully created with file descriptor: 54[0m
+D (54840) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (54850) tcp_client: Sending payload of type 10...[0m
+D (54850) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (54860) tcp_client: Waiting for payload of size 1[0m
+D (54860) tcp_client: Got byte: 01[0m
+[0;32mI (54870) tcp_client: Got response type 01[0m
+D (54870) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (54880) tcp_client: Sending payload of type 20...[0m
+D (54890) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (54890) send data: Successfully opened file: /sdcard/queue/17273630.wav[0m
+D (54900) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (54900) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (54910) send data: Sending size 7488064...[0m
+D (54910) send data: Sending header...[0m
+D (54920) send data: Sending data...[0m
+D (55250) get_files: Found file 17273649.wav[0m
+D (55250) get_files: Found file 17273650.wav[0m
+D (55260) get_files: Found file 17273651.wav[0m
+D (55260) get_files: Found file 17273652.wav[0m
+D (55260) get_files: Found file 17273653.wav[0m
+D (55260) get_files: Found file 17273654.wav[0m
+D (55260) get_files: Found file 17273655.wav[0m
+D (55270) get_files: Found file 17273656.wav[0m
+D (55270) get_files: Found file 17273657.wav[0m
+D (55280) get_files: Found file 17273658.wav[0m
+D (55280) get_files: Found file 17273659.wav[0m
+D (55290) get_files: Found file 17273660.wav[0m
+D (55290) get_files: Found file 17273661.wav[0m
+D (55290) get_files: Found file 17273662.wav[0m
+D (55300) get_files: Found file 17273663.wav[0m
+D (55300) get_files: Found file 17273664.wav[0m
+D (55310) get_files: Found file 17273665.wav[0m
+D (55310) get_files: Found file 17273666.wav[0m
+D (55320) get_files: Found file 17273667.wav[0m
+D (55320) get_files: Found file 17273668.wav[0m
+D (55330) get_files: Found file 17273669.wav[0m
+D (55330) tcp_client: Enqueuing /sdcard/store/17273649.wav to be sent...[0m
+D (55350) tcp_client: Send queue too large, waiting...[0m
+D (64480) send data: Finished sending data in 9565 ms[0m
+D (64490) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (64640) tcp_client: Waiting for payload of size 1[0m
+D (64640) tcp_client: Got byte: 01[0m
+[0;32mI (64650) tcp_client: Got response type 01[0m
+D (64650) tcp_client: Deleting /sdcard/queue/17273630.wav...[0m
+D (64660) tcp_client: In queue: 20[0m
+D (64660) socket: Trying to create socket...[0m
+D (64670) socket: Socket successfully created with file descriptor: 54[0m
+D (64670) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (64680) tcp_client: Sending payload of type 10...[0m
+D (64680) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (64690) tcp_client: Waiting for payload of size 1[0m
+D (64690) tcp_client: Got byte: 01[0m
+[0;32mI (64700) tcp_client: Got response type 01[0m
+D (64700) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (64700) tcp_client: Sending payload of type 20...[0m
+D (64710) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (64720) tcp_client: Request type 20 == 30: 0[0m
+D (64720) send data: Successfully opened file: /sdcard/queue/17273631.wav[0m
+D (64720) tcp_client: Request type 20 == 30: 0[0m
+D (64730) tcp_client: Request type 20 == 30: 0[0m
+D (64730) tcp_client: Request type 20 == 30: 0[0m
+D (64730) tcp_client: Request type 20 == 30: 0[0m
+D (64740) tcp_client: Request type 20 == 30: 0[0m
+D (64740) tcp_client: Request type 20 == 30: 0[0m
+D (64750) tcp_client: Request type 20 == 30: 0[0m
+D (64750) tcp_client: Request type 20 == 30: 0[0m
+D (64760) tcp_client: Request type 20 == 30: 0[0m
+D (64760) tcp_client: Request type 20 == 30: 0[0m
+D (64770) tcp_client: Request type 20 == 30: 0[0m
+D (64770) tcp_client: Request type 20 == 30: 0[0m
+D (64780) tcp_client: Request type 20 == 30: 0[0m
+D (64780) tcp_client: Request type 20 == 30: 0[0m
+D (64780) tcp_client: Request type 20 == 30: 0[0m
+D (64790) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (64790) tcp_client: Config request already queued[0m
+D (64810) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (64810) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (64820) send data: Sending size 7488064...[0m
+D (64820) send data: Sending header...[0m
+D (64830) send data: Sending data...[0m
+D (65350) get_files: Found file 17273650.wav[0m
+D (65360) get_files: Found file 17273651.wav[0m
+D (65360) get_files: Found file 17273652.wav[0m
+D (65370) get_files: Found file 17273653.wav[0m
+D (65370) get_files: Found file 17273654.wav[0m
+D (65370) get_files: Found file 17273655.wav[0m
+D (65380) get_files: Found file 17273656.wav[0m
+D (65380) get_files: Found file 17273657.wav[0m
+D (65390) get_files: Found file 17273658.wav[0m
+D (65390) get_files: Found file 17273659.wav[0m
+D (65390) get_files: Found file 17273660.wav[0m
+D (65400) get_files: Found file 17273661.wav[0m
+D (65400) get_files: Found file 17273662.wav[0m
+D (65410) get_files: Found file 17273663.wav[0m
+D (65410) get_files: Found file 17273664.wav[0m
+D (65420) get_files: Found file 17273665.wav[0m
+D (65420) get_files: Found file 17273666.wav[0m
+D (65430) get_files: Found file 17273667.wav[0m
+D (65430) get_files: Found file 17273668.wav[0m
+D (65430) get_files: Found file 17273669.wav[0m
+D (65440) tcp_client: Enqueuing /sdcard/store/17273650.wav to be sent...[0m
+D (65460) tcp_client: Send queue too large, waiting...[0m
+D (74410) send data: Finished sending data in 9585 ms[0m
+D (74420) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (74680) tcp_client: Waiting for payload of size 1[0m
+D (74680) tcp_client: Got byte: 01[0m
+[0;32mI (74680) tcp_client: Got response type 01[0m
+D (74680) tcp_client: Deleting /sdcard/queue/17273631.wav...[0m
+D (74700) tcp_client: In queue: 20[0m
+D (74700) socket: Trying to create socket...[0m
+D (74700) socket: Socket successfully created with file descriptor: 54[0m
+D (74710) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (74710) tcp_client: Sending payload of type 10...[0m
+D (74720) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (74720) tcp_client: Waiting for payload of size 1[0m
+D (74730) tcp_client: Got byte: 01[0m
+[0;32mI (74730) tcp_client: Got response type 01[0m
+D (74740) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (74740) tcp_client: Sending payload of type 20...[0m
+D (74750) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (74750) send data: Successfully opened file: /sdcard/queue/17273632.wav[0m
+D (74760) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (74770) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (74770) send data: Sending size 7488064...[0m
+D (74780) send data: Sending header...[0m
+D (74780) send data: Sending data...[0m
+D (74800) tcp_client: Request type 20 == 30: 0[0m
+D (74800) tcp_client: Request type 20 == 30: 0[0m
+D (74810) tcp_client: Request type 20 == 30: 0[0m
+D (74810) tcp_client: Request type 20 == 30: 0[0m
+D (74820) tcp_client: Request type 20 == 30: 0[0m
+D (74820) tcp_client: Request type 20 == 30: 0[0m
+D (74820) tcp_client: Request type 20 == 30: 0[0m
+D (74830) tcp_client: Request type 20 == 30: 0[0m
+D (74830) tcp_client: Request type 20 == 30: 0[0m
+D (74840) tcp_client: Request type 20 == 30: 0[0m
+D (74840) tcp_client: Request type 20 == 30: 0[0m
+D (74840) tcp_client: Request type 20 == 30: 0[0m
+D (74850) tcp_client: Request type 20 == 30: 0[0m
+D (74850) tcp_client: Request type 20 == 30: 0[0m
+D (74860) tcp_client: Request type 20 == 30: 0[0m
+D (74860) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (74870) tcp_client: Config request already queued[0m
+D (75460) get_files: Found file 17273651.wav[0m
+D (75470) get_files: Found file 17273652.wav[0m
+D (75470) get_files: Found file 17273653.wav[0m
+D (75470) get_files: Found file 17273654.wav[0m
+D (75470) get_files: Found file 17273655.wav[0m
+D (75480) get_files: Found file 17273656.wav[0m
+D (75480) get_files: Found file 17273657.wav[0m
+D (75480) get_files: Found file 17273658.wav[0m
+D (75490) get_files: Found file 17273659.wav[0m
+D (75490) get_files: Found file 17273660.wav[0m
+D (75500) get_files: Found file 17273661.wav[0m
+D (75500) get_files: Found file 17273662.wav[0m
+D (75510) get_files: Found file 17273663.wav[0m
+D (75520) get_files: Found file 17273664.wav[0m
+D (75530) get_files: Found file 17273665.wav[0m
+D (75540) get_files: Found file 17273666.wav[0m
+D (75540) get_files: Found file 17273667.wav[0m
+D (75540) get_files: Found file 17273668.wav[0m
+D (75550) get_files: Found file 17273669.wav[0m
+D (75550) tcp_client: Enqueuing /sdcard/store/17273651.wav to be sent...[0m
+D (75570) tcp_client: Send queue too large, waiting...[0m
+D (84260) send data: Finished sending data in 9479 ms[0m
+D (84270) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (84510) tcp_client: Waiting for payload of size 1[0m
+D (84510) tcp_client: Got byte: 01[0m
+[0;32mI (84510) tcp_client: Got response type 01[0m
+D (84510) tcp_client: Deleting /sdcard/queue/17273632.wav...[0m
+D (84530) tcp_client: In queue: 20[0m
+D (84530) socket: Trying to create socket...[0m
+D (84540) socket: Socket successfully created with file descriptor: 54[0m
+D (84540) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (84550) tcp_client: Sending payload of type 10...[0m
+D (84550) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (84550) tcp_client: Waiting for payload of size 1[0m
+D (84560) tcp_client: Got byte: 01[0m
+[0;32mI (84560) tcp_client: Got response type 01[0m
+D (84570) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (84570) tcp_client: Sending payload of type 20...[0m
+D (84580) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (84590) send data: Successfully opened file: /sdcard/queue/17273633.wav[0m
+D (84590) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (84600) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (84600) send data: Sending size 7488064...[0m
+D (84610) send data: Sending header...[0m
+D (84610) send data: Sending data...[0m
+D (84870) tcp_client: Request type 20 == 30: 0[0m
+D (84880) tcp_client: Request type 20 == 30: 0[0m
+D (84880) tcp_client: Request type 20 == 30: 0[0m
+D (84880) tcp_client: Request type 20 == 30: 0[0m
+D (84890) tcp_client: Request type 20 == 30: 0[0m
+D (84890) tcp_client: Request type 20 == 30: 0[0m
+D (84900) tcp_client: Request type 20 == 30: 0[0m
+D (84900) tcp_client: Request type 20 == 30: 0[0m
+D (84900) tcp_client: Request type 20 == 30: 0[0m
+D (84910) tcp_client: Request type 20 == 30: 0[0m
+D (84910) tcp_client: Request type 20 == 30: 0[0m
+D (84920) tcp_client: Request type 20 == 30: 0[0m
+D (84920) tcp_client: Request type 20 == 30: 0[0m
+D (84930) tcp_client: Request type 20 == 30: 0[0m
+D (84930) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (84940) tcp_client: Config request already queued[0m
+D (85580) get_files: Found file 17273652.wav[0m
+D (85580) get_files: Found file 17273653.wav[0m
+D (85590) get_files: Found file 17273654.wav[0m
+D (85590) get_files: Found file 17273655.wav[0m
+D (85590) get_files: Found file 17273656.wav[0m
+D (85590) get_files: Found file 17273657.wav[0m
+D (85600) get_files: Found file 17273658.wav[0m
+D (85600) get_files: Found file 17273659.wav[0m
+D (85610) get_files: Found file 17273660.wav[0m
+D (85610) get_files: Found file 17273661.wav[0m
+D (85620) get_files: Found file 17273662.wav[0m
+D (85620) get_files: Found file 17273663.wav[0m
+D (85620) get_files: Found file 17273664.wav[0m
+D (85630) get_files: Found file 17273665.wav[0m
+D (85630) get_files: Found file 17273666.wav[0m
+D (85640) get_files: Found file 17273667.wav[0m
+D (85640) get_files: Found file 17273668.wav[0m
+D (85650) get_files: Found file 17273669.wav[0m
+D (85650) tcp_client: Enqueuing /sdcard/store/17273652.wav to be sent...[0m
+D (85670) tcp_client: Send queue too large, waiting...[0m
+D (94450) send data: Finished sending data in 9829 ms[0m
+D (94450) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (94490) tcp_client: Waiting for payload of size 1[0m
+D (94490) tcp_client: Got byte: 01[0m
+[0;32mI (94490) tcp_client: Got response type 01[0m
+D (94500) tcp_client: Deleting /sdcard/queue/17273633.wav...[0m
+D (94510) tcp_client: In queue: 20[0m
+D (94520) socket: Trying to create socket...[0m
+D (94520) socket: Socket successfully created with file descriptor: 54[0m
+D (94520) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (94530) tcp_client: Sending payload of type 10...[0m
+D (94530) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (94540) tcp_client: Waiting for payload of size 1[0m
+D (94540) tcp_client: Got byte: 01[0m
+[0;32mI (94550) tcp_client: Got response type 01[0m
+D (94550) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (94560) tcp_client: Sending payload of type 20...[0m
+D (94560) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (94570) send data: Successfully opened file: /sdcard/queue/17273634.wav[0m
+D (94580) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (94580) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (94590) send data: Sending size 7488064...[0m
+D (94590) send data: Sending header...[0m
+D (94600) send data: Sending data...[0m
+D (94940) tcp_client: Request type 20 == 30: 0[0m
+D (94950) tcp_client: Request type 20 == 30: 0[0m
+D (94950) tcp_client: Request type 20 == 30: 0[0m
+D (94960) tcp_client: Request type 20 == 30: 0[0m
+D (94960) tcp_client: Request type 20 == 30: 0[0m
+D (94960) tcp_client: Request type 20 == 30: 0[0m
+D (94970) tcp_client: Request type 20 == 30: 0[0m
+D (94970) tcp_client: Request type 20 == 30: 0[0m
+D (94980) tcp_client: Request type 20 == 30: 0[0m
+D (94980) tcp_client: Request type 20 == 30: 0[0m
+D (94990) tcp_client: Request type 20 == 30: 0[0m
+D (94990) tcp_client: Request type 20 == 30: 0[0m
+D (95000) tcp_client: Request type 20 == 30: 0[0m
+D (95000) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (95010) tcp_client: Config request already queued[0m
+D (95680) get_files: Found file 17273653.wav[0m
+D (95690) get_files: Found file 17273654.wav[0m
+D (95690) get_files: Found file 17273655.wav[0m
+D (95700) get_files: Found file 17273656.wav[0m
+D (95700) get_files: Found file 17273657.wav[0m
+D (95700) get_files: Found file 17273658.wav[0m
+D (95700) get_files: Found file 17273659.wav[0m
+D (95710) get_files: Found file 17273660.wav[0m
+D (95710) get_files: Found file 17273661.wav[0m
+D (95720) get_files: Found file 17273662.wav[0m
+D (95720) get_files: Found file 17273663.wav[0m
+D (95720) get_files: Found file 17273664.wav[0m
+D (95730) get_files: Found file 17273665.wav[0m
+D (95730) get_files: Found file 17273666.wav[0m
+D (95740) get_files: Found file 17273667.wav[0m
+D (95740) get_files: Found file 17273668.wav[0m
+D (95750) get_files: Found file 17273669.wav[0m
+D (95750) tcp_client: Enqueuing /sdcard/store/17273653.wav to be sent...[0m
+D (95770) tcp_client: Send queue too large, waiting...[0m
+D (104610) send data: Finished sending data in 10006 ms[0m
+D (104610) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (104780) tcp_client: Waiting for payload of size 1[0m
+D (104780) tcp_client: Got byte: 01[0m
+[0;32mI (104790) tcp_client: Got response type 01[0m
+D (104790) tcp_client: Deleting /sdcard/queue/17273634.wav...[0m
+D (104810) tcp_client: In queue: 20[0m
+D (104810) socket: Trying to create socket...[0m
+D (104810) socket: Socket successfully created with file descriptor: 54[0m
+D (104810) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (104820) tcp_client: Sending payload of type 10...[0m
+D (104820) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (104830) tcp_client: Waiting for payload of size 1[0m
+D (104830) tcp_client: Got byte: 01[0m
+[0;32mI (104840) tcp_client: Got response type 01[0m
+D (104840) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (104850) tcp_client: Sending payload of type 20...[0m
+D (104850) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (104860) send data: Successfully opened file: /sdcard/queue/17273635.wav[0m
+D (104860) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (104870) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (104880) send data: Sending size 7488064...[0m
+D (104880) send data: Sending header...[0m
+D (104890) send data: Sending data...[0m
+D (105010) tcp_client: Request type 20 == 30: 0[0m
+D (105020) tcp_client: Request type 20 == 30: 0[0m
+D (105020) tcp_client: Request type 20 == 30: 0[0m
+D (105020) tcp_client: Request type 20 == 30: 0[0m
+D (105030) tcp_client: Request type 20 == 30: 0[0m
+D (105040) tcp_client: Request type 20 == 30: 0[0m
+D (105040) tcp_client: Request type 20 == 30: 0[0m
+D (105040) tcp_client: Request type 20 == 30: 0[0m
+D (105040) tcp_client: Request type 20 == 30: 0[0m
+D (105050) tcp_client: Request type 20 == 30: 0[0m
+D (105050) tcp_client: Request type 20 == 30: 0[0m
+D (105060) tcp_client: Request type 20 == 30: 0[0m
+D (105060) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (105070) tcp_client: Config request already queued[0m
+D (105780) get_files: Found file 17273654.wav[0m
+D (105780) get_files: Found file 17273655.wav[0m
+D (105790) get_files: Found file 17273656.wav[0m
+D (105790) get_files: Found file 17273657.wav[0m
+D (105790) get_files: Found file 17273658.wav[0m
+D (105790) get_files: Found file 17273659.wav[0m
+D (105800) get_files: Found file 17273660.wav[0m
+D (105810) get_files: Found file 17273661.wav[0m
+D (105810) get_files: Found file 17273662.wav[0m
+D (105820) get_files: Found file 17273663.wav[0m
+D (105820) get_files: Found file 17273664.wav[0m
+D (105820) get_files: Found file 17273665.wav[0m
+D (105830) get_files: Found file 17273666.wav[0m
+D (105830) get_files: Found file 17273667.wav[0m
+D (105840) get_files: Found file 17273668.wav[0m
+D (105840) get_files: Found file 17273669.wav[0m
+D (105850) tcp_client: Enqueuing /sdcard/store/17273654.wav to be sent...[0m
+D (105860) tcp_client: Send queue too large, waiting...[0m
+D (114770) send data: Finished sending data in 9885 ms[0m
+D (114780) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (115020) tcp_client: Waiting for payload of size 1[0m
+D (115030) tcp_client: Got byte: 01[0m
+[0;32mI (115030) tcp_client: Got response type 01[0m
+D (115030) tcp_client: Deleting /sdcard/queue/17273635.wav...[0m
+D (115050) tcp_client: In queue: 20[0m
+D (115050) socket: Trying to create socket...[0m
+D (115050) socket: Socket successfully created with file descriptor: 54[0m
+D (115050) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (115060) tcp_client: Sending payload of type 10...[0m
+D (115060) tcp_client: Waiting for size of incoming message.[0m
+D (115070) tcp_client: Request type 20 == 30: 0[0m
+[0;32mI (115080) tcp_client: Waiting for payload of size 1[0m
+D (115080) tcp_client: Got byte: 01[0m
+[0;32mI (115080) tcp_client: Got response type 01[0m
+D (115080) tcp_client: Got ACK for message of type 10[0m
+D (115090) tcp_client: Request type 20 == 30: 0[0m
+[0;32mI (115090) tcp_client: Sending payload of type 20...[0m
+D (115100) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (115110) send data: Successfully opened file: /sdcard/queue/17273636.wav[0m
+D (115110) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (115120) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (115130) send data: Sending size 7488064...[0m
+D (115130) send data: Sending header...[0m
+D (115140) tcp_client: Request type 20 == 30: 0[0m
+D (115140) send data: Sending data...[0m
+D (115150) tcp_client: Request type 20 == 30: 0[0m
+D (115150) tcp_client: Request type 20 == 30: 0[0m
+D (115160) tcp_client: Request type 20 == 30: 0[0m
+D (115160) tcp_client: Request type 20 == 30: 0[0m
+D (115170) tcp_client: Request type 20 == 30: 0[0m
+D (115170) tcp_client: Request type 20 == 30: 0[0m
+D (115180) tcp_client: Request type 20 == 30: 0[0m
+D (115180) tcp_client: Request type 20 == 30: 0[0m
+D (115180) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (115190) tcp_client: Config request already queued[0m
+D (115870) get_files: Found file 17273655.wav[0m
+D (115870) get_files: Found file 17273656.wav[0m
+D (115880) get_files: Found file 17273657.wav[0m
+D (115880) get_files: Found file 17273658.wav[0m
+D (115880) get_files: Found file 17273659.wav[0m
+D (115890) get_files: Found file 17273660.wav[0m
+D (115890) get_files: Found file 17273661.wav[0m
+D (115890) get_files: Found file 17273662.wav[0m
+D (115900) get_files: Found file 17273663.wav[0m
+D (115900) get_files: Found file 17273664.wav[0m
+D (115910) get_files: Found file 17273665.wav[0m
+D (115910) get_files: Found file 17273666.wav[0m
+D (115920) get_files: Found file 17273667.wav[0m
+D (115920) get_files: Found file 17273668.wav[0m
+D (115930) get_files: Found file 17273669.wav[0m
+D (115930) tcp_client: Enqueuing /sdcard/store/17273655.wav to be sent...[0m
+D (115960) tcp_client: Send queue too large, waiting...[0m
+D (123060) esp_netif_lwip: esp_netif_ip_lost_timer esp_netif:0x3ffc90c4[0m
+D (123060) esp_netif_lwip: if0x3ffc90c4 ip lost tmr: no need raise ip lost event[0m
+D (125040) send data: Finished sending data in 9896 ms[0m
+D (125040) tcp_client: Waiting for size of incoming message.[0m
+D (125200) tcp_client: Request type 20 == 30: 0[0m
+D (125200) tcp_client: Request type 20 == 30: 0[0m
+D (125200) tcp_client: Request type 20 == 30: 0[0m
+D (125200) tcp_client: Request type 20 == 30: 0[0m
+D (125200) tcp_client: Request type 20 == 30: 0[0m
+D (125210) tcp_client: Request type 20 == 30: 0[0m
+D (125210) tcp_client: Request type 20 == 30: 0[0m
+D (125220) tcp_client: Request type 20 == 30: 0[0m
+D (125220) tcp_client: Request type 20 == 30: 0[0m
+D (125230) tcp_client: Request type 20 == 30: 0[0m
+D (125230) tcp_client: Request type 20 == 30: 0[0m
+D (125240) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (125240) tcp_client: Config request already queued[0m
+[0;32mI (125260) tcp_client: Waiting for payload of size 1[0m
+D (125270) tcp_client: Got byte: 01[0m
+[0;32mI (125270) tcp_client: Got response type 01[0m
+D (125270) tcp_client: Deleting /sdcard/queue/17273636.wav...[0m
+D (125290) tcp_client: In queue: 20[0m
+D (125290) socket: Trying to create socket...[0m
+D (125300) socket: Socket successfully created with file descriptor: 54[0m
+D (125300) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (125310) tcp_client: Sending payload of type 10...[0m
+D (125310) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (125320) tcp_client: Waiting for payload of size 1[0m
+D (125320) tcp_client: Got byte: 01[0m
+[0;32mI (125320) tcp_client: Got response type 01[0m
+D (125330) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (125330) tcp_client: Sending payload of type 20...[0m
+D (125340) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (125350) send data: Successfully opened file: /sdcard/queue/17273637.wav[0m
+D (125350) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (125360) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (125360) send data: Sending size 7488064...[0m
+D (125370) send data: Sending header...[0m
+D (125370) send data: Sending data...[0m
+D (125970) get_files: Found file 17273656.wav[0m
+D (125970) get_files: Found file 17273657.wav[0m
+D (125980) get_files: Found file 17273658.wav[0m
+D (125980) get_files: Found file 17273659.wav[0m
+D (125980) get_files: Found file 17273660.wav[0m
+D (125980) get_files: Found file 17273661.wav[0m
+D (125990) get_files: Found file 17273662.wav[0m
+D (125990) get_files: Found file 17273663.wav[0m
+D (126000) get_files: Found file 17273664.wav[0m
+D (126000) get_files: Found file 17273665.wav[0m
+D (126010) get_files: Found file 17273666.wav[0m
+D (126010) get_files: Found file 17273667.wav[0m
+D (126010) get_files: Found file 17273668.wav[0m
+D (126020) get_files: Found file 17273669.wav[0m
+D (126030) tcp_client: Enqueuing /sdcard/store/17273656.wav to be sent...[0m
+D (126040) tcp_client: Send queue too large, waiting...[0m
+D (134850) send data: Finished sending data in 9473 ms[0m
+D (134850) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (135090) tcp_client: Waiting for payload of size 1[0m
+D (135090) tcp_client: Got byte: 01[0m
+[0;32mI (135100) tcp_client: Got response type 01[0m
+D (135100) tcp_client: Deleting /sdcard/queue/17273637.wav...[0m
+D (135120) tcp_client: In queue: 20[0m
+D (135120) socket: Trying to create socket...[0m
+D (135120) socket: Socket successfully created with file descriptor: 54[0m
+D (135120) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (135130) tcp_client: Sending payload of type 10...[0m
+D (135140) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (135140) tcp_client: Waiting for payload of size 1[0m
+D (135150) tcp_client: Got byte: 01[0m
+[0;32mI (135150) tcp_client: Got response type 01[0m
+D (135160) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (135160) tcp_client: Sending payload of type 20...[0m
+D (135170) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (135170) send data: Successfully opened file: /sdcard/queue/17273638.wav[0m
+D (135180) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (135190) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (135190) send data: Sending size 7488064...[0m
+D (135200) send data: Sending header...[0m
+D (135200) send data: Sending data...[0m
+D (135250) tcp_client: Request type 20 == 30: 0[0m
+D (135250) tcp_client: Request type 20 == 30: 0[0m
+D (135260) tcp_client: Request type 20 == 30: 0[0m
+D (135260) tcp_client: Request type 20 == 30: 0[0m
+D (135260) tcp_client: Request type 20 == 30: 0[0m
+D (135260) tcp_client: Request type 20 == 30: 0[0m
+D (135270) tcp_client: Request type 20 == 30: 0[0m
+D (135280) tcp_client: Request type 20 == 30: 0[0m
+D (135280) tcp_client: Request type 20 == 30: 0[0m
+D (135280) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (135290) tcp_client: Config request already queued[0m
+D (136050) get_files: Found file 17273657.wav[0m
+D (136060) get_files: Found file 17273658.wav[0m
+D (136060) get_files: Found file 17273659.wav[0m
+D (136070) get_files: Found file 17273660.wav[0m
+D (136070) get_files: Found file 17273661.wav[0m
+D (136070) get_files: Found file 17273662.wav[0m
+D (136080) get_files: Found file 17273663.wav[0m
+D (136080) get_files: Found file 17273664.wav[0m
+D (136090) get_files: Found file 17273665.wav[0m
+D (136090) get_files: Found file 17273666.wav[0m
+D (136090) get_files: Found file 17273667.wav[0m
+D (136100) get_files: Found file 17273668.wav[0m
+D (136100) get_files: Found file 17273669.wav[0m
+D (136110) tcp_client: Enqueuing /sdcard/store/17273657.wav to be sent...[0m
+D (136130) tcp_client: Send queue too large, waiting...[0m
+D (145020) send data: Finished sending data in 9814 ms[0m
+D (145020) tcp_client: Waiting for size of incoming message.[0m
+D (145300) tcp_client: Request type 20 == 30: 0[0m
+D (145300) tcp_client: Request type 20 == 30: 0[0m
+D (145300) tcp_client: Request type 20 == 30: 0[0m
+D (145300) tcp_client: Request type 20 == 30: 0[0m
+D (145300) tcp_client: Request type 20 == 30: 0[0m
+D (145310) tcp_client: Request type 20 == 30: 0[0m
+D (145310) tcp_client: Request type 20 == 30: 0[0m
+D (145320) tcp_client: Request type 20 == 30: 0[0m
+D (145320) tcp_client: Request type 20 == 30: 0[0m
+D (145330) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (145330) tcp_client: Config request already queued[0m
+[0;32mI (145330) tcp_client: Waiting for payload of size 1[0m
+D (145340) tcp_client: Got byte: 01[0m
+[0;32mI (145350) tcp_client: Got response type 01[0m
+D (145350) tcp_client: Deleting /sdcard/queue/17273638.wav...[0m
+D (145370) tcp_client: In queue: 20[0m
+D (145370) socket: Trying to create socket...[0m
+D (145380) socket: Socket successfully created with file descriptor: 54[0m
+D (145380) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (145390) tcp_client: Sending payload of type 10...[0m
+D (145390) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (145390) tcp_client: Waiting for payload of size 1[0m
+D (145400) tcp_client: Got byte: 01[0m
+[0;32mI (145400) tcp_client: Got response type 01[0m
+D (145410) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (145410) tcp_client: Sending payload of type 20...[0m
+D (145420) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (145430) send data: Successfully opened file: /sdcard/queue/17273639.wav[0m
+D (145430) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (145440) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (145440) send data: Sending size 7488064...[0m
+D (145450) send data: Sending header...[0m
+D (145450) send data: Sending data...[0m
+D (146140) get_files: Found file 17273658.wav[0m
+D (146140) get_files: Found file 17273659.wav[0m
+D (146140) get_files: Found file 17273660.wav[0m
+D (146140) get_files: Found file 17273661.wav[0m
+D (146150) get_files: Found file 17273662.wav[0m
+D (146160) get_files: Found file 17273663.wav[0m
+D (146170) get_files: Found file 17273664.wav[0m
+D (146170) get_files: Found file 17273665.wav[0m
+D (146170) get_files: Found file 17273666.wav[0m
+D (146180) get_files: Found file 17273667.wav[0m
+D (146180) get_files: Found file 17273668.wav[0m
+D (146180) get_files: Found file 17273669.wav[0m
+D (146190) tcp_client: Enqueuing /sdcard/store/17273658.wav to be sent...[0m
+D (146210) tcp_client: Send queue too large, waiting...[0m
+D (155220) send data: Finished sending data in 9767 ms[0m
+D (155220) tcp_client: Waiting for size of incoming message.[0m
+D (155350) tcp_client: Request type 20 == 30: 0[0m
+D (155350) tcp_client: Request type 20 == 30: 0[0m
+D (155350) tcp_client: Request type 20 == 30: 0[0m
+D (155350) tcp_client: Request type 20 == 30: 0[0m
+D (155350) tcp_client: Request type 20 == 30: 0[0m
+D (155360) tcp_client: Request type 20 == 30: 0[0m
+D (155360) tcp_client: Request type 20 == 30: 0[0m
+D (155370) tcp_client: Request type 20 == 30: 0[0m
+D (155370) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (155380) tcp_client: Config request already queued[0m
+[0;32mI (155570) tcp_client: Waiting for payload of size 1[0m
+D (155580) tcp_client: Got byte: 01[0m
+[0;32mI (155580) tcp_client: Got response type 01[0m
+D (155580) tcp_client: Deleting /sdcard/queue/17273639.wav...[0m
+D (155600) tcp_client: In queue: 20[0m
+D (155600) socket: Trying to create socket...[0m
+D (155610) socket: Socket successfully created with file descriptor: 54[0m
+D (155610) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (155620) tcp_client: Sending payload of type 10...[0m
+D (155620) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (155620) tcp_client: Waiting for payload of size 1[0m
+D (155630) tcp_client: Got byte: 01[0m
+[0;32mI (155630) tcp_client: Got response type 01[0m
+D (155640) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (155640) tcp_client: Sending payload of type 20...[0m
+D (155650) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (155660) send data: Successfully opened file: /sdcard/queue/17273640.wav[0m
+D (155660) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (155670) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (155670) send data: Sending size 7488064...[0m
+D (155680) send data: Sending header...[0m
+D (155680) send data: Sending data...[0m
+D (156220) get_files: Found file 17273659.wav[0m
+D (156240) get_files: Found file 17273660.wav[0m
+D (156240) get_files: Found file 17273661.wav[0m
+D (156240) get_files: Found file 17273662.wav[0m
+D (156250) get_files: Found file 17273663.wav[0m
+D (156250) get_files: Found file 17273664.wav[0m
+D (156250) get_files: Found file 17273665.wav[0m
+D (156260) get_files: Found file 17273666.wav[0m
+D (156260) get_files: Found file 17273667.wav[0m
+D (156270) get_files: Found file 17273668.wav[0m
+D (156270) get_files: Found file 17273669.wav[0m
+D (156270) tcp_client: Enqueuing /sdcard/store/17273659.wav to be sent...[0m
+D (156290) tcp_client: Send queue too large, waiting...[0m
+D (165200) send data: Finished sending data in 9519 ms[0m
+D (165210) tcp_client: Waiting for size of incoming message.[0m
+D (165390) tcp_client: Request type 20 == 30: 0[0m
+D (165390) tcp_client: Request type 20 == 30: 0[0m
+D (165390) tcp_client: Request type 20 == 30: 0[0m
+D (165390) tcp_client: Request type 20 == 30: 0[0m
+D (165400) tcp_client: Request type 20 == 30: 0[0m
+D (165400) tcp_client: Request type 20 == 30: 0[0m
+[0;32mI (165400) tcp_client: Waiting for payload of size 1[0m
+D (165410) tcp_client: Request type 20 == 30: 0[0m
+D (165410) tcp_client: Got byte: 01[0m
+D (165420) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (165420) tcp_client: Config request already queued[0m
+[0;32mI (165430) tcp_client: Got response type 01[0m
+D (165430) tcp_client: Deleting /sdcard/queue/17273640.wav...[0m
+D (165450) tcp_client: In queue: 20[0m
+D (165450) socket: Trying to create socket...[0m
+D (165460) socket: Socket successfully created with file descriptor: 54[0m
+D (165460) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (165470) tcp_client: Sending payload of type 10...[0m
+D (165470) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (165480) tcp_client: Waiting for payload of size 1[0m
+D (165480) tcp_client: Got byte: 01[0m
+[0;32mI (165490) tcp_client: Got response type 01[0m
+D (165490) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (165500) tcp_client: Sending payload of type 20...[0m
+D (165500) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (165510) send data: Successfully opened file: /sdcard/queue/17273641.wav[0m
+D (165510) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (165520) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (165530) send data: Sending size 7488064...[0m
+D (165530) send data: Sending header...[0m
+D (165540) send data: Sending data...[0m
+D (166310) get_files: Found file 17273660.wav[0m
+D (166310) get_files: Found file 17273661.wav[0m
+D (166310) get_files: Found file 17273662.wav[0m
+D (166320) get_files: Found file 17273663.wav[0m
+D (166320) get_files: Found file 17273664.wav[0m
+D (166320) get_files: Found file 17273665.wav[0m
+D (166330) get_files: Found file 17273666.wav[0m
+D (166330) get_files: Found file 17273667.wav[0m
+D (166330) get_files: Found file 17273668.wav[0m
+D (166340) get_files: Found file 17273669.wav[0m
+D (166340) tcp_client: Enqueuing /sdcard/store/17273660.wav to be sent...[0m
+D (166360) tcp_client: Send queue too large, waiting...[0m
+D (175400) send data: Finished sending data in 9863 ms[0m
+D (175410) tcp_client: Waiting for size of incoming message.[0m
+D (175440) tcp_client: Request type 20 == 30: 0[0m
+D (175440) tcp_client: Request type 20 == 30: 0[0m
+D (175440) tcp_client: Request type 20 == 30: 0[0m
+D (175440) tcp_client: Request type 20 == 30: 0[0m
+D (175450) tcp_client: Request type 20 == 30: 0[0m
+D (175450) tcp_client: Request type 20 == 30: 0[0m
+D (175450) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (175460) tcp_client: Config request already queued[0m
+[0;32mI (175640) tcp_client: Waiting for payload of size 1[0m
+D (175650) tcp_client: Got byte: 01[0m
+[0;32mI (175650) tcp_client: Got response type 01[0m
+D (175650) tcp_client: Deleting /sdcard/queue/17273641.wav...[0m
+D (175670) tcp_client: In queue: 20[0m
+D (175670) socket: Trying to create socket...[0m
+D (175670) socket: Socket successfully created with file descriptor: 54[0m
+D (175680) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (175690) tcp_client: Sending payload of type 10...[0m
+D (175690) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (175690) tcp_client: Waiting for payload of size 1[0m
+D (175700) tcp_client: Got byte: 01[0m
+[0;32mI (175700) tcp_client: Got response type 01[0m
+D (175710) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (175710) tcp_client: Sending payload of type 20...[0m
+D (175720) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (175730) send data: Successfully opened file: /sdcard/queue/17273642.wav[0m
+D (175730) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (175740) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (175740) send data: Sending size 7488064...[0m
+D (175750) send data: Sending header...[0m
+D (175750) send data: Sending data...[0m
+D (176370) get_files: Found file 17273661.wav[0m
+D (176380) get_files: Found file 17273662.wav[0m
+D (176380) get_files: Found file 17273663.wav[0m
+D (176380) get_files: Found file 17273664.wav[0m
+D (176390) get_files: Found file 17273665.wav[0m
+D (176390) get_files: Found file 17273666.wav[0m
+D (176390) get_files: Found file 17273667.wav[0m
+D (176400) get_files: Found file 17273668.wav[0m
+D (176400) get_files: Found file 17273669.wav[0m
+D (176410) tcp_client: Enqueuing /sdcard/store/17273661.wav to be sent...[0m
+D (176430) tcp_client: Send queue too large, waiting...[0m
+D (185450) send data: Finished sending data in 9690 ms[0m
+D (185450) tcp_client: Waiting for size of incoming message.[0m
+D (185480) tcp_client: Request type 20 == 30: 0[0m
+D (185480) tcp_client: Request type 20 == 30: 0[0m
+D (185480) tcp_client: Request type 20 == 30: 0[0m
+D (185480) tcp_client: Request type 20 == 30: 0[0m
+D (185490) tcp_client: Request type 20 == 30: 0[0m
+D (185490) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (185490) tcp_client: Config request already queued[0m
+[0;32mI (185680) tcp_client: Waiting for payload of size 1[0m
+D (185680) tcp_client: Got byte: 01[0m
+[0;32mI (185680) tcp_client: Got response type 01[0m
+D (185690) tcp_client: Deleting /sdcard/queue/17273642.wav...[0m
+D (185710) tcp_client: In queue: 20[0m
+D (185710) socket: Trying to create socket...[0m
+D (185710) socket: Socket successfully created with file descriptor: 54[0m
+D (185710) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (185720) tcp_client: Sending payload of type 10...[0m
+D (185730) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (185730) tcp_client: Waiting for payload of size 1[0m
+D (185730) tcp_client: Got byte: 01[0m
+[0;32mI (185740) tcp_client: Got response type 01[0m
+D (185740) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (185750) tcp_client: Sending payload of type 20...[0m
+D (185760) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (185760) send data: Successfully opened file: /sdcard/queue/17273643.wav[0m
+D (185770) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (185770) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (185780) send data: Sending size 7488064...[0m
+D (185790) send data: Sending header...[0m
+D (185790) send data: Sending data...[0m
+D (186430) get_files: Found file 17273662.wav[0m
+D (186440) get_files: Found file 17273663.wav[0m
+D (186450) get_files: Found file 17273664.wav[0m
+D (186450) get_files: Found file 17273665.wav[0m
+D (186460) get_files: Found file 17273666.wav[0m
+D (186460) get_files: Found file 17273667.wav[0m
+D (186470) get_files: Found file 17273668.wav[0m
+D (186470) get_files: Found file 17273669.wav[0m
+D (186470) tcp_client: Enqueuing /sdcard/store/17273662.wav to be sent...[0m
+D (186490) tcp_client: Send queue too large, waiting...[0m
+D (195500) tcp_client: Request type 20 == 30: 0[0m
+D (195500) tcp_client: Request type 20 == 30: 0[0m
+D (195500) tcp_client: Request type 20 == 30: 0[0m
+D (195510) tcp_client: Request type 20 == 30: 0[0m
+D (195510) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (195520) tcp_client: Config request already queued[0m
+D (195710) send data: Finished sending data in 9916 ms[0m
+D (195710) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (195920) tcp_client: Waiting for payload of size 1[0m
+D (195920) tcp_client: Got byte: 01[0m
+[0;32mI (195920) tcp_client: Got response type 01[0m
+D (195930) tcp_client: Deleting /sdcard/queue/17273643.wav...[0m
+D (195950) tcp_client: In queue: 20[0m
+D (195950) socket: Trying to create socket...[0m
+D (195950) socket: Socket successfully created with file descriptor: 54[0m
+D (195950) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (195960) tcp_client: Sending payload of type 10...[0m
+D (195960) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (195970) tcp_client: Waiting for payload of size 1[0m
+D (195970) tcp_client: Got byte: 01[0m
+[0;32mI (195980) tcp_client: Got response type 01[0m
+D (195980) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (195990) tcp_client: Sending payload of type 20...[0m
+D (195990) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (196000) send data: Successfully opened file: /sdcard/queue/17273644.wav[0m
+D (196010) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (196010) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (196020) send data: Sending size 7488064...[0m
+D (196020) send data: Sending header...[0m
+D (196030) send data: Sending data...[0m
+D (196500) get_files: Found file 17273663.wav[0m
+D (196510) get_files: Found file 17273664.wav[0m
+D (196510) get_files: Found file 17273665.wav[0m
+D (196510) get_files: Found file 17273666.wav[0m
+D (196520) get_files: Found file 17273667.wav[0m
+D (196520) get_files: Found file 17273668.wav[0m
+D (196520) get_files: Found file 17273669.wav[0m
+D (196530) tcp_client: Enqueuing /sdcard/store/17273663.wav to be sent...[0m
+D (196550) tcp_client: Send queue too large, waiting...[0m
+D (205520) tcp_client: Request type 20 == 30: 0[0m
+D (205520) tcp_client: Request type 20 == 30: 0[0m
+D (205530) tcp_client: Request type 20 == 30: 0[0m
+D (205530) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (205530) tcp_client: Config request already queued[0m
+D (205770) send data: Finished sending data in 9737 ms[0m
+D (205770) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (206160) tcp_client: Waiting for payload of size 1[0m
+D (206160) tcp_client: Got byte: 01[0m
+[0;32mI (206160) tcp_client: Got response type 01[0m
+D (206170) tcp_client: Deleting /sdcard/queue/17273644.wav...[0m
+D (206190) tcp_client: In queue: 20[0m
+D (206190) socket: Trying to create socket...[0m
+D (206190) socket: Socket successfully created with file descriptor: 54[0m
+D (206190) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (206200) tcp_client: Sending payload of type 10...[0m
+D (206200) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (206210) tcp_client: Waiting for payload of size 1[0m
+D (206210) tcp_client: Got byte: 01[0m
+[0;32mI (206220) tcp_client: Got response type 01[0m
+D (206220) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (206230) tcp_client: Sending payload of type 20...[0m
+D (206230) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (206240) send data: Successfully opened file: /sdcard/queue/17273645.wav[0m
+D (206250) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (206250) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (206260) send data: Sending size 7488064...[0m
+D (206260) send data: Sending header...[0m
+D (206270) send data: Sending data...[0m
+D (206560) get_files: Found file 17273664.wav[0m
+D (206570) get_files: Found file 17273665.wav[0m
+D (206570) get_files: Found file 17273666.wav[0m
+D (206580) get_files: Found file 17273667.wav[0m
+D (206590) get_files: Found file 17273668.wav[0m
+D (206590) get_files: Found file 17273669.wav[0m
+D (206590) tcp_client: Enqueuing /sdcard/store/17273664.wav to be sent...[0m
+D (206630) tcp_client: Send queue too large, waiting...[0m
+D (215540) tcp_client: Request type 20 == 30: 0[0m
+D (215540) tcp_client: Request type 20 == 30: 0[0m
+D (215540) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (215540) tcp_client: Config request already queued[0m
+D (216220) send data: Finished sending data in 9950 ms[0m
+D (216220) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (216400) tcp_client: Waiting for payload of size 1[0m
+D (216400) tcp_client: Got byte: 01[0m
+[0;32mI (216400) tcp_client: Got response type 01[0m
+D (216410) tcp_client: Deleting /sdcard/queue/17273645.wav...[0m
+D (216420) tcp_client: In queue: 20[0m
+D (216430) socket: Trying to create socket...[0m
+D (216430) socket: Socket successfully created with file descriptor: 54[0m
+D (216430) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (216440) tcp_client: Sending payload of type 10...[0m
+D (216440) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (216450) tcp_client: Waiting for payload of size 1[0m
+D (216450) tcp_client: Got byte: 01[0m
+[0;32mI (216460) tcp_client: Got response type 01[0m
+D (216460) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (216470) tcp_client: Sending payload of type 20...[0m
+D (216470) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (216480) send data: Successfully opened file: /sdcard/queue/17273646.wav[0m
+D (216490) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (216490) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (216500) send data: Sending size 7488064...[0m
+D (216500) send data: Sending header...[0m
+D (216510) send data: Sending data...[0m
+D (216640) get_files: Found file 17273665.wav[0m
+D (216640) get_files: Found file 17273666.wav[0m
+D (216640) get_files: Found file 17273667.wav[0m
+D (216650) get_files: Found file 17273668.wav[0m
+D (216650) get_files: Found file 17273669.wav[0m
+D (216650) tcp_client: Enqueuing /sdcard/store/17273665.wav to be sent...[0m
+D (216670) tcp_client: Send queue too large, waiting...[0m
+D (225550) tcp_client: Request type 20 == 30: 0[0m
+D (225550) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (225560) tcp_client: Config request already queued[0m
+D (226130) send data: Finished sending data in 9625 ms[0m
+D (226140) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (226430) tcp_client: Waiting for payload of size 1[0m
+D (226440) tcp_client: Got byte: 01[0m
+[0;32mI (226440) tcp_client: Got response type 01[0m
+D (226440) tcp_client: Deleting /sdcard/queue/17273646.wav...[0m
+D (226460) tcp_client: In queue: 30[0m
+D (226460) socket: Trying to create socket...[0m
+D (226460) socket: Socket successfully created with file descriptor: 54[0m
+D (226470) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (226480) tcp_client: Sending payload of type 10...[0m
+D (226480) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (226480) tcp_client: Waiting for payload of size 1[0m
+D (226490) tcp_client: Got byte: 01[0m
+[0;32mI (226490) tcp_client: Got response type 01[0m
+D (226500) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (226500) tcp_client: Sending payload of type 30...[0m
+D (226510) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (226550) tcp_client: Waiting for payload of size 15[0m
+D (226560) tcp_client: Got byte: 03[0m
+D (226560) tcp_client: Got byte: 00[0m
+D (226560) tcp_client: Got byte: 00[0m
+D (226560) tcp_client: Got byte: 00[0m
+D (226560) tcp_client: Got byte: 00[0m
+D (226570) tcp_client: Got byte: 00[0m
+D (226570) tcp_client: Got byte: 00[0m
+D (226570) tcp_client: Got byte: 00[0m
+D (226580) tcp_client: Got byte: 00[0m
+D (226580) tcp_client: Got byte: 00[0m
+D (226590) tcp_client: Got byte: 01[0m
+D (226590) tcp_client: Got byte: 0a[0m
+D (226590) tcp_client: Got byte: 03[0m
+D (226600) tcp_client: Got byte: 8d[0m
+D (226600) tcp_client: Got byte: 01[0m
+[0;32mI (226600) tcp_client: Got response type 03[0m
+[0;32mI (226610) tcp_client: Timeslot changed, new one is in 0 seconds.[0m
+D (226610) tcp_client: Got timeslot in 0, length of addresses 1[0m
+D (226620) tcp_client: Got byte: 03[0m
+D (226620) tcp_client: Got byte: 00[0m
+D (226630) tcp_client: Got byte: 00[0m
+D (226630) tcp_client: Got byte: 00[0m
+D (226630) tcp_client: Got byte: 00[0m
+D (226640) tcp_client: Got byte: 00[0m
+D (226640) tcp_client: Got byte: 00[0m
+D (226650) tcp_client: Got byte: 00[0m
+D (226650) tcp_client: Got byte: 00[0m
+D (226650) tcp_client: Got byte: 01[0m
+D (226660) tcp_client: Got byte: 00[0m
+D (226660) tcp_client: Got byte: 0a[0m
+D (226660) tcp_client: Got byte: 03[0m
+D (226680) tcp_client: Got byte: 8d[0m
+D (226680) tcp_client: Got byte: 01[0m
+D (226680) tcp_client: Got new server 10.3.141.1:5001 but we knew about that one already![0m
+D (226680) get_files: Found file 17273666.wav[0m
+[0;32mI (226680) tcp_client: Sending payload of type 01...[0m
+D (226700) get_files: Found file 17273667.wav[0m
+D (226700) get_files: Found file 17273668.wav[0m
+D (226700) tcp_client: In queue: 20[0m
+D (226700) get_files: Found file 17273669.wav[0m
+D (226710) tcp_client: Enqueuing /sdcard/store/17273666.wav to be sent...[0m
+D (226730) tcp_client: Enqueuing /sdcard/store/17273667.wav to be sent...[0m
+D (226750) tcp_client: Send queue too large, waiting...[0m
+D (226750) socket: Trying to create socket...[0m
+D (226750) socket: Socket successfully created with file descriptor: 54[0m
+D (226760) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (226770) tcp_client: Sending payload of type 10...[0m
+D (226770) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (226770) tcp_client: Waiting for payload of size 1[0m
+D (226780) tcp_client: Got byte: 01[0m
+[0;32mI (226780) tcp_client: Got response type 01[0m
+D (226790) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (226790) tcp_client: Sending payload of type 20...[0m
+D (226800) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (226810) send data: Successfully opened file: /sdcard/queue/17273647.wav[0m
+D (226810) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (226820) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (226820) send data: Sending size 7488064...[0m
+D (226830) send data: Sending header...[0m
+D (226830) send data: Sending data...[0m
+D (235560) tcp_client: Request type 20 == 30: 0[0m
+D (235570) tcp_client: Request type 20 == 30: 0[0m
+D (235580) tcp_client: Request type 20 == 30: 0[0m
+D (235580) tcp_client: Request type 20 == 30: 0[0m
+D (235580) tcp_client: Request type 20 == 30: 0[0m
+D (235590) tcp_client: Request type 20 == 30: 0[0m
+D (235590) tcp_client: Request type 20 == 30: 0[0m
+D (235590) tcp_client: Request type 20 == 30: 0[0m
+D (235600) tcp_client: Request type 20 == 30: 0[0m
+D (235610) tcp_client: Request type 20 == 30: 0[0m
+D (235610) tcp_client: Request type 20 == 30: 0[0m
+D (235620) tcp_client: Request type 20 == 30: 0[0m
+D (235620) tcp_client: Request type 20 == 30: 0[0m
+D (235620) tcp_client: Request type 20 == 30: 0[0m
+D (235630) tcp_client: Request type 20 == 30: 0[0m
+D (235630) tcp_client: Request type 20 == 30: 0[0m
+D (235640) tcp_client: Request type 20 == 30: 0[0m
+D (235640) tcp_client: Request type 20 == 30: 0[0m
+D (235650) tcp_client: Request type 20 == 30: 0[0m
+D (235660) tcp_client: Request type 20 == 30: 0[0m
+D (235660) tcp_client: Request type 20 == 30: 0[0m
+D (236450) send data: Finished sending data in 9611 ms[0m
+D (236450) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (236670) tcp_client: Waiting for payload of size 1[0m
+D (236680) tcp_client: Got byte: 01[0m
+[0;32mI (236680) tcp_client: Got response type 01[0m
+D (236680) tcp_client: Deleting /sdcard/queue/17273647.wav...[0m
+D (236700) tcp_client: In queue: 20[0m
+D (236700) socket: Trying to create socket...[0m
+D (236700) socket: Socket successfully created with file descriptor: 54[0m
+D (236710) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (236720) tcp_client: Sending payload of type 10...[0m
+D (236720) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (236730) tcp_client: Waiting for payload of size 1[0m
+D (236730) tcp_client: Got byte: 01[0m
+[0;32mI (236730) tcp_client: Got response type 01[0m
+D (236740) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (236740) tcp_client: Sending payload of type 20...[0m
+D (236750) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (236760) send data: Successfully opened file: /sdcard/queue/17273648.wav[0m
+D (236760) get_files: Found file 17273668.wav[0m
+D (236760) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (236770) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (236770) send data: Sending size 7488064...[0m
+D (236780) send data: Sending header...[0m
+D (236780) get_files: Found file 17273669.wav[0m
+D (236790) send data: Sending data...[0m
+D (236800) tcp_client: Send queue too large, waiting...[0m
+D (245670) tcp_client: Request type 20 == 30: 0[0m
+D (245670) tcp_client: Request type 20 == 30: 0[0m
+D (245670) tcp_client: Request type 20 == 30: 0[0m
+D (245670) tcp_client: Request type 20 == 30: 0[0m
+D (245670) tcp_client: Request type 20 == 30: 0[0m
+D (245680) tcp_client: Request type 20 == 30: 0[0m
+D (245680) tcp_client: Request type 20 == 30: 0[0m
+D (245690) tcp_client: Request type 20 == 30: 0[0m
+D (245690) tcp_client: Request type 20 == 30: 0[0m
+D (245700) tcp_client: Request type 20 == 30: 0[0m
+D (245700) tcp_client: Request type 20 == 30: 0[0m
+D (245710) tcp_client: Request type 20 == 30: 0[0m
+D (245710) tcp_client: Request type 20 == 30: 0[0m
+D (245720) tcp_client: Request type 20 == 30: 0[0m
+D (245720) tcp_client: Request type 20 == 30: 0[0m
+D (245720) tcp_client: Request type 20 == 30: 0[0m
+D (245730) tcp_client: Request type 20 == 30: 0[0m
+D (245730) tcp_client: Request type 20 == 30: 0[0m
+D (245740) tcp_client: Request type 20 == 30: 0[0m
+D (245750) tcp_client: Request type 20 == 30: 0[0m
+D (245750) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (245750) tcp_client: Config request already queued[0m
+D (246680) send data: Finished sending data in 9887 ms[0m
+D (246680) tcp_client: Waiting for size of incoming message.[0m
+D (246810) get_files: Found file 17273668.wav[0m
+D (246810) get_files: Found file 17273669.wav[0m
+D (246810) tcp_client: Send queue too large, waiting...[0m
+[0;32mI (246920) tcp_client: Waiting for payload of size 1[0m
+D (246920) tcp_client: Got byte: 01[0m
+[0;32mI (246920) tcp_client: Got response type 01[0m
+D (246920) tcp_client: Deleting /sdcard/queue/17273648.wav...[0m
+D (246940) tcp_client: In queue: 20[0m
+D (246940) socket: Trying to create socket...[0m
+D (246950) socket: Socket successfully created with file descriptor: 54[0m
+D (246950) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (246960) tcp_client: Sending payload of type 10...[0m
+D (246960) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (246970) tcp_client: Waiting for payload of size 1[0m
+D (246970) tcp_client: Got byte: 01[0m
+[0;32mI (246980) tcp_client: Got response type 01[0m
+D (246980) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (246990) tcp_client: Sending payload of type 20...[0m
+D (246990) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (247000) send data: Successfully opened file: /sdcard/queue/17273649.wav[0m
+D (247000) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (247010) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (247020) send data: Sending size 7488064...[0m
+D (247020) send data: Sending header...[0m
+D (247030) send data: Sending data...[0m
+D (255760) tcp_client: Request type 20 == 30: 0[0m
+D (255760) tcp_client: Request type 20 == 30: 0[0m
+D (255770) tcp_client: Request type 20 == 30: 0[0m
+D (255770) tcp_client: Request type 20 == 30: 0[0m
+D (255770) tcp_client: Request type 20 == 30: 0[0m
+D (255780) tcp_client: Request type 20 == 30: 0[0m
+D (255780) tcp_client: Request type 20 == 30: 0[0m
+D (255790) tcp_client: Request type 20 == 30: 0[0m
+D (255790) tcp_client: Request type 20 == 30: 0[0m
+D (255800) tcp_client: Request type 20 == 30: 0[0m
+D (255800) tcp_client: Request type 20 == 30: 0[0m
+D (255810) tcp_client: Request type 20 == 30: 0[0m
+D (255810) tcp_client: Request type 20 == 30: 0[0m
+D (255810) tcp_client: Request type 20 == 30: 0[0m
+D (255820) tcp_client: Request type 20 == 30: 0[0m
+D (255820) tcp_client: Request type 20 == 30: 0[0m
+D (255830) tcp_client: Request type 20 == 30: 0[0m
+D (255830) tcp_client: Request type 20 == 30: 0[0m
+D (255840) tcp_client: Request type 20 == 30: 0[0m
+D (255840) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (255850) tcp_client: Config request already queued[0m
+D (256820) get_files: Found file 17273668.wav[0m
+D (256820) get_files: Found file 17273669.wav[0m
+D (256830) tcp_client: Enqueuing /sdcard/store/17273668.wav to be sent...[0m
+D (256850) tcp_client: Send queue too large, waiting...[0m
+D (257000) send data: Finished sending data in 9968 ms[0m
+D (257000) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (257150) tcp_client: Waiting for payload of size 1[0m
+D (257160) tcp_client: Got byte: 01[0m
+[0;32mI (257160) tcp_client: Got response type 01[0m
+D (257160) tcp_client: Deleting /sdcard/queue/17273649.wav...[0m
+D (257180) tcp_client: In queue: 20[0m
+D (257180) socket: Trying to create socket...[0m
+D (257180) socket: Socket successfully created with file descriptor: 54[0m
+D (257180) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (257190) tcp_client: Sending payload of type 10...[0m
+D (257200) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (257200) tcp_client: Waiting for payload of size 1[0m
+D (257210) tcp_client: Got byte: 01[0m
+[0;32mI (257210) tcp_client: Got response type 01[0m
+D (257210) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (257220) tcp_client: Sending payload of type 20...[0m
+D (257230) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (257230) send data: Successfully opened file: /sdcard/queue/17273650.wav[0m
+D (257240) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (257240) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (257250) send data: Sending size 7488064...[0m
+D (257250) send data: Sending header...[0m
+D (257260) send data: Sending data...[0m
+D (265850) tcp_client: Request type 20 == 30: 0[0m
+D (265860) tcp_client: Request type 20 == 30: 0[0m
+D (265860) tcp_client: Request type 20 == 30: 0[0m
+D (265860) tcp_client: Request type 20 == 30: 0[0m
+D (265870) tcp_client: Request type 20 == 30: 0[0m
+D (265870) tcp_client: Request type 20 == 30: 0[0m
+D (265870) tcp_client: Request type 20 == 30: 0[0m
+D (265880) tcp_client: Request type 20 == 30: 0[0m
+D (265880) tcp_client: Request type 20 == 30: 0[0m
+D (265890) tcp_client: Request type 20 == 30: 0[0m
+D (265890) tcp_client: Request type 20 == 30: 0[0m
+D (265900) tcp_client: Request type 20 == 30: 0[0m
+D (265900) tcp_client: Request type 20 == 30: 0[0m
+D (265910) tcp_client: Request type 20 == 30: 0[0m
+D (265910) tcp_client: Request type 20 == 30: 0[0m
+D (265920) tcp_client: Request type 20 == 30: 0[0m
+D (265920) tcp_client: Request type 20 == 30: 0[0m
+D (265930) tcp_client: Request type 20 == 30: 0[0m
+D (265930) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (265940) tcp_client: Config request already queued[0m
+D (266860) get_files: Found file 17273669.wav[0m
+D (266870) tcp_client: Enqueuing /sdcard/store/17273669.wav to be sent...[0m
+D (267000) send data: Finished sending data in 9736 ms[0m
+D (267000) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (267190) tcp_client: Waiting for payload of size 1[0m
+D (267190) tcp_client: Got byte: 01[0m
+[0;32mI (267200) tcp_client: Got response type 01[0m
+D (267200) tcp_client: Deleting /sdcard/queue/17273650.wav...[0m
+D (267220) tcp_client: In queue: 20[0m
+D (267220) socket: Trying to create socket...[0m
+D (267220) socket: Socket successfully created with file descriptor: 54[0m
+D (267220) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (267230) tcp_client: Sending payload of type 10...[0m
+D (267240) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (267240) tcp_client: Waiting for payload of size 1[0m
+D (267250) tcp_client: Got byte: 01[0m
+[0;32mI (267250) tcp_client: Got response type 01[0m
+D (267250) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (267260) tcp_client: Sending payload of type 20...[0m
+D (267270) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (267270) send data: Successfully opened file: /sdcard/queue/17273651.wav[0m
+D (267280) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (267280) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (267290) send data: Sending size 7488064...[0m
+D (267300) send data: Sending header...[0m
+D (267300) send data: Sending data...[0m
+D (275940) tcp_client: Request type 20 == 30: 0[0m
+D (275950) tcp_client: Request type 20 == 30: 0[0m
+D (275950) tcp_client: Request type 20 == 30: 0[0m
+D (275950) tcp_client: Request type 20 == 30: 0[0m
+D (275960) tcp_client: Request type 20 == 30: 0[0m
+D (275960) tcp_client: Request type 20 == 30: 0[0m
+D (275970) tcp_client: Request type 20 == 30: 0[0m
+D (275970) tcp_client: Request type 20 == 30: 0[0m
+D (275970) tcp_client: Request type 20 == 30: 0[0m
+D (275980) tcp_client: Request type 20 == 30: 0[0m
+D (275980) tcp_client: Request type 20 == 30: 0[0m
+D (275990) tcp_client: Request type 20 == 30: 0[0m
+D (275990) tcp_client: Request type 20 == 30: 0[0m
+D (276000) tcp_client: Request type 20 == 30: 0[0m
+D (276000) tcp_client: Request type 20 == 30: 0[0m
+D (276010) tcp_client: Request type 20 == 30: 0[0m
+D (276010) tcp_client: Request type 20 == 30: 0[0m
+D (276020) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (276020) tcp_client: Config request already queued[0m
+D (277190) send data: Finished sending data in 9885 ms[0m
+D (277190) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (277430) tcp_client: Waiting for payload of size 1[0m
+D (277430) tcp_client: Got byte: 01[0m
+[0;32mI (277430) tcp_client: Got response type 01[0m
+D (277440) tcp_client: Deleting /sdcard/queue/17273651.wav...[0m
+D (277450) tcp_client: In queue: 20[0m
+D (277450) socket: Trying to create socket...[0m
+D (277460) socket: Socket successfully created with file descriptor: 54[0m
+D (277460) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (277470) tcp_client: Sending payload of type 10...[0m
+D (277470) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (277470) tcp_client: Waiting for payload of size 1[0m
+D (277480) tcp_client: Got byte: 01[0m
+[0;32mI (277480) tcp_client: Got response type 01[0m
+D (277490) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (277490) tcp_client: Sending payload of type 20...[0m
+D (277500) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (277510) send data: Successfully opened file: /sdcard/queue/17273652.wav[0m
+D (277510) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (277520) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (277520) send data: Sending size 7488064...[0m
+D (277530) send data: Sending header...[0m
+D (277530) send data: Sending data...[0m
+D (286030) tcp_client: Request type 20 == 30: 0[0m
+D (286030) tcp_client: Request type 20 == 30: 0[0m
+D (286030) tcp_client: Request type 20 == 30: 0[0m
+D (286030) tcp_client: Request type 20 == 30: 0[0m
+D (286040) tcp_client: Request type 20 == 30: 0[0m
+D (286040) tcp_client: Request type 20 == 30: 0[0m
+D (286050) tcp_client: Request type 20 == 30: 0[0m
+D (286050) tcp_client: Request type 20 == 30: 0[0m
+D (286060) tcp_client: Request type 20 == 30: 0[0m
+D (286060) tcp_client: Request type 20 == 30: 0[0m
+D (286070) tcp_client: Request type 20 == 30: 0[0m
+D (286070) tcp_client: Request type 20 == 30: 0[0m
+D (286080) tcp_client: Request type 20 == 30: 0[0m
+D (286080) tcp_client: Request type 20 == 30: 0[0m
+D (286090) tcp_client: Request type 20 == 30: 0[0m
+D (286090) tcp_client: Request type 20 == 30: 0[0m
+D (286090) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (286100) tcp_client: Config request already queued[0m
+D (287230) send data: Finished sending data in 9696 ms[0m
+D (287240) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (287480) tcp_client: Waiting for payload of size 1[0m
+D (287480) tcp_client: Got byte: 01[0m
+[0;32mI (287480) tcp_client: Got response type 01[0m
+D (287490) tcp_client: Deleting /sdcard/queue/17273652.wav...[0m
+D (287500) tcp_client: In queue: 20[0m
+D (287500) socket: Trying to create socket...[0m
+D (287510) socket: Socket successfully created with file descriptor: 54[0m
+D (287510) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (287520) tcp_client: Sending payload of type 10...[0m
+D (287520) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (287550) tcp_client: Waiting for payload of size 1[0m
+D (287550) tcp_client: Got byte: 01[0m
+[0;32mI (287560) tcp_client: Got response type 01[0m
+D (287560) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (287560) tcp_client: Sending payload of type 20...[0m
+D (287570) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (287580) send data: Successfully opened file: /sdcard/queue/17273653.wav[0m
+D (287580) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (287590) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (287590) send data: Sending size 7488064...[0m
+D (287600) send data: Sending header...[0m
+D (287600) send data: Sending data...[0m
+D (296100) tcp_client: Request type 20 == 30: 0[0m
+D (296110) tcp_client: Request type 20 == 30: 0[0m
+D (296110) tcp_client: Request type 20 == 30: 0[0m
+D (296110) tcp_client: Request type 20 == 30: 0[0m
+D (296110) tcp_client: Request type 20 == 30: 0[0m
+D (296120) tcp_client: Request type 20 == 30: 0[0m
+D (296120) tcp_client: Request type 20 == 30: 0[0m
+D (296130) tcp_client: Request type 20 == 30: 0[0m
+D (296140) tcp_client: Request type 20 == 30: 0[0m
+D (296140) tcp_client: Request type 20 == 30: 0[0m
+D (296140) tcp_client: Request type 20 == 30: 0[0m
+D (296150) tcp_client: Request type 20 == 30: 0[0m
+D (296150) tcp_client: Request type 20 == 30: 0[0m
+D (296160) tcp_client: Request type 20 == 30: 0[0m
+D (296160) tcp_client: Request type 20 == 30: 0[0m
+D (296160) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (296170) tcp_client: Config request already queued[0m
+D (297340) send data: Finished sending data in 9739 ms[0m
+D (297340) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (297500) tcp_client: Waiting for payload of size 1[0m
+D (297510) tcp_client: Got byte: 01[0m
+[0;32mI (297510) tcp_client: Got response type 01[0m
+D (297510) tcp_client: Deleting /sdcard/queue/17273653.wav...[0m
+D (297530) tcp_client: In queue: 20[0m
+D (297530) socket: Trying to create socket...[0m
+D (297530) socket: Socket successfully created with file descriptor: 54[0m
+D (297540) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (297550) tcp_client: Sending payload of type 10...[0m
+D (297550) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (297560) tcp_client: Waiting for payload of size 1[0m
+D (297560) tcp_client: Got byte: 01[0m
+[0;32mI (297560) tcp_client: Got response type 01[0m
+D (297570) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (297570) tcp_client: Sending payload of type 20...[0m
+D (297580) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (297590) send data: Successfully opened file: /sdcard/queue/17273654.wav[0m
+D (297590) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (297600) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (297600) send data: Sending size 7488064...[0m
+D (297610) send data: Sending header...[0m
+D (297610) send data: Sending data...[0m
+D (306180) tcp_client: Request type 20 == 30: 0[0m
+D (306180) tcp_client: Request type 20 == 30: 0[0m
+D (306180) tcp_client: Request type 20 == 30: 0[0m
+D (306190) tcp_client: Request type 20 == 30: 0[0m
+D (306190) tcp_client: Request type 20 == 30: 0[0m
+D (306200) tcp_client: Request type 20 == 30: 0[0m
+D (306200) tcp_client: Request type 20 == 30: 0[0m
+D (306200) tcp_client: Request type 20 == 30: 0[0m
+D (306210) tcp_client: Request type 20 == 30: 0[0m
+D (306210) tcp_client: Request type 20 == 30: 0[0m
+D (306220) tcp_client: Request type 20 == 30: 0[0m
+D (306220) tcp_client: Request type 20 == 30: 0[0m
+D (306230) tcp_client: Request type 20 == 30: 0[0m
+D (306230) tcp_client: Request type 20 == 30: 0[0m
+D (306240) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (306240) tcp_client: Config request already queued[0m
+D (307540) send data: Finished sending data in 9927 ms[0m
+D (307550) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (307740) tcp_client: Waiting for payload of size 1[0m
+D (307750) tcp_client: Got byte: 01[0m
+[0;32mI (307750) tcp_client: Got response type 01[0m
+D (307750) tcp_client: Deleting /sdcard/queue/17273654.wav...[0m
+D (307760) tcp_client: In queue: 20[0m
+D (307770) socket: Trying to create socket...[0m
+D (307770) socket: Socket successfully created with file descriptor: 54[0m
+D (307770) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (307780) tcp_client: Sending payload of type 10...[0m
+D (307780) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (307790) tcp_client: Waiting for payload of size 1[0m
+D (307790) tcp_client: Got byte: 01[0m
+[0;32mI (307800) tcp_client: Got response type 01[0m
+D (307800) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (307810) tcp_client: Sending payload of type 20...[0m
+D (307810) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (307820) send data: Successfully opened file: /sdcard/queue/17273655.wav[0m
+D (307830) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (307830) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (307840) send data: Sending size 7488064...[0m
+D (307840) send data: Sending header...[0m
+D (307850) send data: Sending data...[0m
+D (316250) tcp_client: Request type 20 == 30: 0[0m
+D (316260) tcp_client: Request type 20 == 30: 0[0m
+D (316260) tcp_client: Request type 20 == 30: 0[0m
+D (316260) tcp_client: Request type 20 == 30: 0[0m
+D (316270) tcp_client: Request type 20 == 30: 0[0m
+D (316270) tcp_client: Request type 20 == 30: 0[0m
+D (316270) tcp_client: Request type 20 == 30: 0[0m
+D (316280) tcp_client: Request type 20 == 30: 0[0m
+D (316280) tcp_client: Request type 20 == 30: 0[0m
+D (316290) tcp_client: Request type 20 == 30: 0[0m
+D (316290) tcp_client: Request type 20 == 30: 0[0m
+D (316300) tcp_client: Request type 20 == 30: 0[0m
+D (316300) tcp_client: Request type 20 == 30: 0[0m
+D (316310) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (316310) tcp_client: Config request already queued[0m
+D (317680) send data: Finished sending data in 9827 ms[0m
+D (317680) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (317980) tcp_client: Waiting for payload of size 1[0m
+D (317990) tcp_client: Got byte: 01[0m
+[0;32mI (317990) tcp_client: Got response type 01[0m
+D (317990) tcp_client: Deleting /sdcard/queue/17273655.wav...[0m
+D (318010) tcp_client: In queue: 20[0m
+D (318010) socket: Trying to create socket...[0m
+D (318010) socket: Socket successfully created with file descriptor: 54[0m
+D (318010) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (318020) tcp_client: Sending payload of type 10...[0m
+D (318030) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (318030) tcp_client: Waiting for payload of size 1[0m
+D (318040) tcp_client: Got byte: 01[0m
+[0;32mI (318040) tcp_client: Got response type 01[0m
+D (318040) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (318050) tcp_client: Sending payload of type 20...[0m
+D (318060) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (318060) send data: Successfully opened file: /sdcard/queue/17273656.wav[0m
+D (318070) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (318070) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (318080) send data: Sending size 7488064...[0m
+D (318090) send data: Sending header...[0m
+D (318090) send data: Sending data...[0m
+D (326320) tcp_client: Request type 20 == 30: 0[0m
+D (326330) tcp_client: Request type 20 == 30: 0[0m
+D (326330) tcp_client: Request type 20 == 30: 0[0m
+D (326330) tcp_client: Request type 20 == 30: 0[0m
+D (326340) tcp_client: Request type 20 == 30: 0[0m
+D (326350) tcp_client: Request type 20 == 30: 0[0m
+D (326350) tcp_client: Request type 20 == 30: 0[0m
+D (326350) tcp_client: Request type 20 == 30: 0[0m
+D (326350) tcp_client: Request type 20 == 30: 0[0m
+D (326360) tcp_client: Request type 20 == 30: 0[0m
+D (326370) tcp_client: Request type 20 == 30: 0[0m
+D (326370) tcp_client: Request type 20 == 30: 0[0m
+D (326370) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (326380) tcp_client: Config request already queued[0m
+D (327670) send data: Finished sending data in 9576 ms[0m
+D (327670) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (328020) tcp_client: Waiting for payload of size 1[0m
+D (328020) tcp_client: Got byte: 01[0m
+[0;32mI (328020) tcp_client: Got response type 01[0m
+D (328020) tcp_client: Deleting /sdcard/queue/17273656.wav...[0m
+D (328040) tcp_client: In queue: 20[0m
+D (328050) socket: Trying to create socket...[0m
+D (328050) socket: Socket successfully created with file descriptor: 54[0m
+D (328050) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (328060) tcp_client: Sending payload of type 10...[0m
+D (328060) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (328070) tcp_client: Waiting for payload of size 1[0m
+D (328070) tcp_client: Got byte: 01[0m
+[0;32mI (328080) tcp_client: Got response type 01[0m
+D (328080) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (328090) tcp_client: Sending payload of type 20...[0m
+D (328090) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (328100) send data: Successfully opened file: /sdcard/queue/17273657.wav[0m
+D (328110) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (328110) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (328120) send data: Sending size 7488064...[0m
+D (328120) send data: Sending header...[0m
+D (328130) send data: Sending data...[0m
+D (336380) tcp_client: Request type 20 == 30: 0[0m
+D (336390) tcp_client: Request type 20 == 30: 0[0m
+D (336390) tcp_client: Request type 20 == 30: 0[0m
+D (336400) tcp_client: Request type 20 == 30: 0[0m
+D (336400) tcp_client: Request type 20 == 30: 0[0m
+D (336400) tcp_client: Request type 20 == 30: 0[0m
+D (336410) tcp_client: Request type 20 == 30: 0[0m
+D (336410) tcp_client: Request type 20 == 30: 0[0m
+D (336420) tcp_client: Request type 20 == 30: 0[0m
+D (336420) tcp_client: Request type 20 == 30: 0[0m
+D (336430) tcp_client: Request type 20 == 30: 0[0m
+D (336430) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (336440) tcp_client: Config request already queued[0m
+D (338050) send data: Finished sending data in 9922 ms[0m
+D (338050) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (338260) tcp_client: Waiting for payload of size 1[0m
+D (338260) tcp_client: Got byte: 01[0m
+[0;32mI (338260) tcp_client: Got response type 01[0m
+D (338260) tcp_client: Deleting /sdcard/queue/17273657.wav...[0m
+D (338280) tcp_client: In queue: 20[0m
+D (338280) socket: Trying to create socket...[0m
+D (338290) socket: Socket successfully created with file descriptor: 54[0m
+D (338290) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (338300) tcp_client: Sending payload of type 10...[0m
+D (338300) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (338310) tcp_client: Waiting for payload of size 1[0m
+D (338310) tcp_client: Got byte: 01[0m
+[0;32mI (338310) tcp_client: Got response type 01[0m
+D (338320) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (338320) tcp_client: Sending payload of type 20...[0m
+D (338330) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (338340) send data: Successfully opened file: /sdcard/queue/17273658.wav[0m
+D (338340) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (338350) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (338360) send data: Sending size 7488064...[0m
+D (338360) send data: Sending header...[0m
+D (338360) send data: Sending data...[0m
+D (346440) tcp_client: Request type 20 == 30: 0[0m
+D (346440) tcp_client: Request type 20 == 30: 0[0m
+D (346450) tcp_client: Request type 20 == 30: 0[0m
+D (346450) tcp_client: Request type 20 == 30: 0[0m
+D (346450) tcp_client: Request type 20 == 30: 0[0m
+D (346460) tcp_client: Request type 20 == 30: 0[0m
+D (346460) tcp_client: Request type 20 == 30: 0[0m
+D (346470) tcp_client: Request type 20 == 30: 0[0m
+D (346470) tcp_client: Request type 20 == 30: 0[0m
+D (346470) tcp_client: Request type 20 == 30: 0[0m
+D (346480) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (346480) tcp_client: Config request already queued[0m
+D (348040) send data: Finished sending data in 9670 ms[0m
+D (348040) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (348290) tcp_client: Waiting for payload of size 1[0m
+D (348290) tcp_client: Got byte: 01[0m
+[0;32mI (348300) tcp_client: Got response type 01[0m
+D (348300) tcp_client: Deleting /sdcard/queue/17273658.wav...[0m
+D (348320) tcp_client: In queue: 20[0m
+D (348320) socket: Trying to create socket...[0m
+D (348320) socket: Socket successfully created with file descriptor: 54[0m
+D (348330) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (348330) tcp_client: Sending payload of type 10...[0m
+D (348340) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (348340) tcp_client: Waiting for payload of size 1[0m
+D (348350) tcp_client: Got byte: 01[0m
+[0;32mI (348350) tcp_client: Got response type 01[0m
+D (348360) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (348360) tcp_client: Sending payload of type 20...[0m
+D (348370) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (348370) send data: Successfully opened file: /sdcard/queue/17273659.wav[0m
+D (348380) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (348390) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (348390) send data: Sending size 7488064...[0m
+D (348400) send data: Sending header...[0m
+D (348400) send data: Sending data...[0m
+D (356490) tcp_client: Request type 20 == 30: 0[0m
+D (356490) tcp_client: Request type 20 == 30: 0[0m
+D (356500) tcp_client: Request type 20 == 30: 0[0m
+D (356500) tcp_client: Request type 20 == 30: 0[0m
+D (356500) tcp_client: Request type 20 == 30: 0[0m
+D (356510) tcp_client: Request type 20 == 30: 0[0m
+D (356510) tcp_client: Request type 20 == 30: 0[0m
+D (356510) tcp_client: Request type 20 == 30: 0[0m
+D (356520) tcp_client: Request type 20 == 30: 0[0m
+D (356520) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (356530) tcp_client: Config request already queued[0m
+D (358330) send data: Finished sending data in 9926 ms[0m
+D (358340) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (358530) tcp_client: Waiting for payload of size 1[0m
+D (358540) tcp_client: Got byte: 01[0m
+[0;32mI (358540) tcp_client: Got response type 01[0m
+D (358540) tcp_client: Deleting /sdcard/queue/17273659.wav...[0m
+D (358550) tcp_client: In queue: 20[0m
+D (358560) socket: Trying to create socket...[0m
+D (358560) socket: Socket successfully created with file descriptor: 54[0m
+D (358560) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (358570) tcp_client: Sending payload of type 10...[0m
+D (358570) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (358580) tcp_client: Waiting for payload of size 1[0m
+D (358580) tcp_client: Got byte: 01[0m
+[0;32mI (358590) tcp_client: Got response type 01[0m
+D (358590) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (358600) tcp_client: Sending payload of type 20...[0m
+D (358610) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (358610) send data: Successfully opened file: /sdcard/queue/17273660.wav[0m
+D (358620) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (358620) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (358630) send data: Sending size 7488064...[0m
+D (358630) send data: Sending header...[0m
+D (358640) send data: Sending data...[0m
+D (366530) tcp_client: Request type 20 == 30: 0[0m
+D (366540) tcp_client: Request type 20 == 30: 0[0m
+D (366540) tcp_client: Request type 20 == 30: 0[0m
+D (366550) tcp_client: Request type 20 == 30: 0[0m
+D (366550) tcp_client: Request type 20 == 30: 0[0m
+D (366560) tcp_client: Request type 20 == 30: 0[0m
+D (366570) tcp_client: Request type 20 == 30: 0[0m
+D (366570) tcp_client: Request type 20 == 30: 0[0m
+D (366570) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (366570) tcp_client: Config request already queued[0m
+D (368480) send data: Finished sending data in 9843 ms[0m
+D (368480) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (368770) tcp_client: Waiting for payload of size 1[0m
+D (368770) tcp_client: Got byte: 01[0m
+[0;32mI (368770) tcp_client: Got response type 01[0m
+D (368780) tcp_client: Deleting /sdcard/queue/17273660.wav...[0m
+D (368790) tcp_client: In queue: 20[0m
+D (368800) socket: Trying to create socket...[0m
+D (368800) socket: Socket successfully created with file descriptor: 54[0m
+D (368800) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (368810) tcp_client: Sending payload of type 10...[0m
+D (368820) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (368820) tcp_client: Waiting for payload of size 1[0m
+D (368830) tcp_client: Got byte: 01[0m
+[0;32mI (368830) tcp_client: Got response type 01[0m
+D (368830) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (368840) tcp_client: Sending payload of type 20...[0m
+D (368850) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (368850) send data: Successfully opened file: /sdcard/queue/17273661.wav[0m
+D (368860) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (368860) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (368870) send data: Sending size 7488064...[0m
+D (368880) send data: Sending header...[0m
+D (368880) send data: Sending data...[0m
+D (376580) tcp_client: Request type 20 == 30: 0[0m
+D (376580) tcp_client: Request type 20 == 30: 0[0m
+D (376580) tcp_client: Request type 20 == 30: 0[0m
+D (376590) tcp_client: Request type 20 == 30: 0[0m
+D (376590) tcp_client: Request type 20 == 30: 0[0m
+D (376600) tcp_client: Request type 20 == 30: 0[0m
+D (376600) tcp_client: Request type 20 == 30: 0[0m
+D (376610) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (376610) tcp_client: Config request already queued[0m
+D (378670) send data: Finished sending data in 9784 ms[0m
+D (378670) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (379010) tcp_client: Waiting for payload of size 1[0m
+D (379020) tcp_client: Got byte: 01[0m
+[0;32mI (379020) tcp_client: Got response type 01[0m
+D (379020) tcp_client: Deleting /sdcard/queue/17273661.wav...[0m
+D (379040) tcp_client: In queue: 20[0m
+D (379040) socket: Trying to create socket...[0m
+D (379050) socket: Socket successfully created with file descriptor: 54[0m
+D (379050) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (379060) tcp_client: Sending payload of type 10...[0m
+D (379060) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (379070) tcp_client: Waiting for payload of size 1[0m
+D (379070) tcp_client: Got byte: 01[0m
+[0;32mI (379070) tcp_client: Got response type 01[0m
+D (379080) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (379080) tcp_client: Sending payload of type 20...[0m
+D (379090) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (379100) send data: Successfully opened file: /sdcard/queue/17273662.wav[0m
+D (379100) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (379110) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (379110) send data: Sending size 7488064...[0m
+D (379120) send data: Sending header...[0m
+D (379120) send data: Sending data...[0m
+D (386620) tcp_client: Request type 20 == 30: 0[0m
+D (386620) tcp_client: Request type 20 == 30: 0[0m
+D (386620) tcp_client: Request type 20 == 30: 0[0m
+D (386630) tcp_client: Request type 20 == 30: 0[0m
+D (386630) tcp_client: Request type 20 == 30: 0[0m
+D (386640) tcp_client: Request type 20 == 30: 0[0m
+D (386640) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (386640) tcp_client: Config request already queued[0m
+D (388880) send data: Finished sending data in 9759 ms[0m
+D (388890) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (389050) tcp_client: Waiting for payload of size 1[0m
+D (389050) tcp_client: Got byte: 01[0m
+[0;32mI (389050) tcp_client: Got response type 01[0m
+D (389050) tcp_client: Deleting /sdcard/queue/17273662.wav...[0m
+D (389070) tcp_client: In queue: 20[0m
+D (389070) socket: Trying to create socket...[0m
+D (389070) socket: Socket successfully created with file descriptor: 54[0m
+D (389080) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (389090) tcp_client: Sending payload of type 10...[0m
+D (389090) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (389090) tcp_client: Waiting for payload of size 1[0m
+D (389100) tcp_client: Got byte: 01[0m
+[0;32mI (389100) tcp_client: Got response type 01[0m
+D (389110) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (389110) tcp_client: Sending payload of type 20...[0m
+D (389120) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (389130) send data: Successfully opened file: /sdcard/queue/17273663.wav[0m
+D (389130) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (389140) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (389140) send data: Sending size 7488064...[0m
+D (389150) send data: Sending header...[0m
+D (389150) send data: Sending data...[0m
+D (396650) tcp_client: Request type 20 == 30: 0[0m
+D (396650) tcp_client: Request type 20 == 30: 0[0m
+D (396660) tcp_client: Request type 20 == 30: 0[0m
+D (396660) tcp_client: Request type 20 == 30: 0[0m
+D (396660) tcp_client: Request type 20 == 30: 0[0m
+D (396670) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (396670) tcp_client: Config request already queued[0m
+D (399000) send data: Finished sending data in 9845 ms[0m
+D (399000) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (399290) tcp_client: Waiting for payload of size 1[0m
+D (399290) tcp_client: Got byte: 01[0m
+[0;32mI (399290) tcp_client: Got response type 01[0m
+D (399290) tcp_client: Deleting /sdcard/queue/17273663.wav...[0m
+D (399310) tcp_client: In queue: 20[0m
+D (399310) socket: Trying to create socket...[0m
+D (399310) socket: Socket successfully created with file descriptor: 54[0m
+D (399320) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (399320) tcp_client: Sending payload of type 10...[0m
+D (399330) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (399330) tcp_client: Waiting for payload of size 1[0m
+D (399340) tcp_client: Got byte: 01[0m
+[0;32mI (399340) tcp_client: Got response type 01[0m
+D (399350) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (399350) tcp_client: Sending payload of type 20...[0m
+D (399360) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (399370) send data: Successfully opened file: /sdcard/queue/17273664.wav[0m
+D (399370) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (399380) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (399380) send data: Sending size 7488064...[0m
+D (399390) send data: Sending header...[0m
+D (399390) send data: Sending data...[0m
+D (406680) tcp_client: Request type 20 == 30: 0[0m
+D (406690) tcp_client: Request type 20 == 30: 0[0m
+D (406690) tcp_client: Request type 20 == 30: 0[0m
+D (406700) tcp_client: Request type 20 == 30: 0[0m
+D (406700) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (406700) tcp_client: Config request already queued[0m
+D (408970) send data: Finished sending data in 9580 ms[0m
+D (408980) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (409320) tcp_client: Waiting for payload of size 1[0m
+D (409330) tcp_client: Got byte: 01[0m
+[0;32mI (409330) tcp_client: Got response type 01[0m
+D (409330) tcp_client: Deleting /sdcard/queue/17273664.wav...[0m
+D (409350) tcp_client: In queue: 20[0m
+D (409350) socket: Trying to create socket...[0m
+D (409350) socket: Socket successfully created with file descriptor: 54[0m
+D (409350) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (409360) tcp_client: Sending payload of type 10...[0m
+D (409370) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (409370) tcp_client: Waiting for payload of size 1[0m
+D (409380) tcp_client: Got byte: 01[0m
+[0;32mI (409380) tcp_client: Got response type 01[0m
+D (409390) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (409390) tcp_client: Sending payload of type 20...[0m
+D (409400) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (409400) send data: Successfully opened file: /sdcard/queue/17273665.wav[0m
+D (409410) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (409420) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (409420) send data: Sending size 7488064...[0m
+D (409430) send data: Sending header...[0m
+D (409430) send data: Sending data...[0m
+D (416710) tcp_client: Request type 20 == 30: 0[0m
+D (416720) tcp_client: Request type 20 == 30: 0[0m
+D (416720) tcp_client: Request type 20 == 30: 0[0m
+D (416720) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (416720) tcp_client: Config request already queued[0m
+D (419200) send data: Finished sending data in 9763 ms[0m
+D (419200) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (419560) tcp_client: Waiting for payload of size 1[0m
+D (419560) tcp_client: Got byte: 01[0m
+[0;32mI (419560) tcp_client: Got response type 01[0m
+D (419570) tcp_client: Deleting /sdcard/queue/17273665.wav...[0m
+D (419590) tcp_client: In queue: 20[0m
+D (419590) socket: Trying to create socket...[0m
+D (419590) socket: Socket successfully created with file descriptor: 54[0m
+D (419600) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (419610) tcp_client: Sending payload of type 10...[0m
+D (419610) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (419620) tcp_client: Waiting for payload of size 1[0m
+D (419620) tcp_client: Got byte: 01[0m
+[0;32mI (419620) tcp_client: Got response type 01[0m
+D (419630) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (419630) tcp_client: Sending payload of type 20...[0m
+D (419640) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (419650) send data: Successfully opened file: /sdcard/queue/17273666.wav[0m
+D (419650) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (419660) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (419660) send data: Sending size 7488064...[0m
+D (419670) send data: Sending header...[0m
+D (419670) send data: Sending data...[0m
+D (426730) tcp_client: Request type 20 == 30: 0[0m
+D (426730) tcp_client: Request type 20 == 30: 0[0m
+D (426730) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (426740) tcp_client: Config request already queued[0m
+D (429530) send data: Finished sending data in 9858 ms[0m
+D (429540) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (429800) tcp_client: Waiting for payload of size 1[0m
+D (429810) tcp_client: Got byte: 01[0m
+[0;32mI (429810) tcp_client: Got response type 01[0m
+D (429810) tcp_client: Deleting /sdcard/queue/17273666.wav...[0m
+D (429830) tcp_client: In queue: 20[0m
+D (429830) socket: Trying to create socket...[0m
+D (429840) socket: Socket successfully created with file descriptor: 54[0m
+D (429840) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (429850) tcp_client: Sending payload of type 10...[0m
+D (429850) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (429860) tcp_client: Waiting for payload of size 1[0m
+D (429860) tcp_client: Got byte: 01[0m
+[0;32mI (429860) tcp_client: Got response type 01[0m
+D (429870) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (429870) tcp_client: Sending payload of type 20...[0m
+D (429880) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (429890) send data: Successfully opened file: /sdcard/queue/17273667.wav[0m
+D (429890) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (429900) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (429900) send data: Sending size 7488064...[0m
+D (429910) send data: Sending header...[0m
+D (429910) send data: Sending data...[0m
+D (436740) tcp_client: Request type 20 == 30: 0[0m
+D (436750) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (436750) tcp_client: Config request already queued[0m
+D (439980) send data: Finished sending data in 10069 ms[0m
+D (439990) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (440250) tcp_client: Waiting for payload of size 1[0m
+D (440250) tcp_client: Got byte: 01[0m
+[0;32mI (440250) tcp_client: Got response type 01[0m
+D (440250) tcp_client: Deleting /sdcard/queue/17273667.wav...[0m
+D (440270) tcp_client: In queue: 30[0m
+D (440280) socket: Trying to create socket...[0m
+D (440280) socket: Socket successfully created with file descriptor: 54[0m
+D (440280) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (440290) tcp_client: Sending payload of type 10...[0m
+D (440290) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (440300) tcp_client: Waiting for payload of size 1[0m
+D (440300) tcp_client: Got byte: 01[0m
+[0;32mI (440310) tcp_client: Got response type 01[0m
+D (440310) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (440320) tcp_client: Sending payload of type 30...[0m
+D (440320) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (440370) tcp_client: Waiting for payload of size 15[0m
+D (440370) tcp_client: Got byte: 03[0m
+D (440370) tcp_client: Got byte: 00[0m
+D (440370) tcp_client: Got byte: 00[0m
+D (440380) tcp_client: Got byte: 00[0m
+D (440380) tcp_client: Got byte: 00[0m
+D (440380) tcp_client: Got byte: 00[0m
+D (440390) tcp_client: Got byte: 00[0m
+D (440390) tcp_client: Got byte: 00[0m
+D (440390) tcp_client: Got byte: 00[0m
+D (440400) tcp_client: Got byte: 00[0m
+D (440400) tcp_client: Got byte: 01[0m
+D (440400) tcp_client: Got byte: 0a[0m
+D (440410) tcp_client: Got byte: 03[0m
+D (440410) tcp_client: Got byte: 8d[0m
+D (440410) tcp_client: Got byte: 01[0m
+[0;32mI (440420) tcp_client: Got response type 03[0m
+[0;32mI (440420) tcp_client: Timeslot changed, new one is in 0 seconds.[0m
+D (440430) tcp_client: Got timeslot in 0, length of addresses 1[0m
+D (440440) tcp_client: Got byte: 03[0m
+D (440440) tcp_client: Got byte: 00[0m
+D (440440) tcp_client: Got byte: 00[0m
+D (440450) tcp_client: Got byte: 00[0m
+D (440450) tcp_client: Got byte: 00[0m
+D (440450) tcp_client: Got byte: 00[0m
+D (440460) tcp_client: Got byte: 00[0m
+D (440460) tcp_client: Got byte: 00[0m
+D (440460) tcp_client: Got byte: 00[0m
+D (440470) tcp_client: Got byte: 01[0m
+D (440470) tcp_client: Got byte: 00[0m
+D (440470) tcp_client: Got byte: 0a[0m
+D (440480) tcp_client: Got byte: 03[0m
+D (440480) tcp_client: Got byte: 8d[0m
+D (440490) tcp_client: Got byte: 01[0m
+D (440490) tcp_client: Got new server 10.3.141.1:5001 but we knew about that one already![0m
+[0;32mI (440500) tcp_client: Sending payload of type 01...[0m
+D (440510) tcp_client: In queue: 20[0m
+D (440510) socket: Trying to create socket...[0m
+D (440510) socket: Socket successfully created with file descriptor: 54[0m
+D (440520) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (440530) tcp_client: Sending payload of type 10...[0m
+D (440530) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (440540) tcp_client: Waiting for payload of size 1[0m
+D (440540) tcp_client: Got byte: 01[0m
+[0;32mI (440540) tcp_client: Got response type 01[0m
+D (440550) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (440550) tcp_client: Sending payload of type 20...[0m
+D (440560) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (440570) send data: Successfully opened file: /sdcard/queue/17273668.wav[0m
+D (440570) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (440580) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (440580) send data: Sending size 7488064...[0m
+D (440590) send data: Sending header...[0m
+D (440590) send data: Sending data...[0m
+D (446750) tcp_client: Request type 20 == 30: 0[0m
+D (446760) tcp_client: Request type 20 == 30: 0[0m
+D (450430) send data: Finished sending data in 9834 ms[0m
+D (450430) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (450690) tcp_client: Waiting for payload of size 1[0m
+D (450690) tcp_client: Got byte: 01[0m
+[0;32mI (450700) tcp_client: Got response type 01[0m
+D (450700) tcp_client: Deleting /sdcard/queue/17273668.wav...[0m
+D (450710) tcp_client: In queue: 20[0m
+D (450720) socket: Trying to create socket...[0m
+D (450720) socket: Socket successfully created with file descriptor: 54[0m
+D (450720) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (450730) tcp_client: Sending payload of type 10...[0m
+D (450730) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (450740) tcp_client: Waiting for payload of size 1[0m
+D (450740) tcp_client: Got byte: 01[0m
+[0;32mI (450750) tcp_client: Got response type 01[0m
+D (450750) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (450760) tcp_client: Sending payload of type 20...[0m
+D (450760) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (450770) send data: Successfully opened file: /sdcard/queue/17273669.wav[0m
+D (450780) vfs_fat: vfs_fat_lseek: offset=7488044, filesize:=7488044[0m
+D (450780) vfs_fat: vfs_fat_lseek: offset=0, filesize:=7488044[0m
+D (450790) send data: Sending size 7488064...[0m
+D (450790) send data: Sending header...[0m
+D (450800) send data: Sending data...[0m
+D (456770) tcp_client: Request type 20 == 30: 0[0m
+D (456770) tcp_client: Request type 30 == 30: 1[0m
+[0;33mW (456770) tcp_client: Config request already queued[0m
+D (460480) send data: Finished sending data in 9677 ms[0m
+D (460480) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (460730) tcp_client: Waiting for payload of size 1[0m
+D (460730) tcp_client: Got byte: 01[0m
+[0;32mI (460730) tcp_client: Got response type 01[0m
+D (460740) tcp_client: Deleting /sdcard/queue/17273669.wav...[0m
+D (460750) tcp_client: In queue: 30[0m
+D (460760) socket: Trying to create socket...[0m
+D (460760) socket: Socket successfully created with file descriptor: 54[0m
+D (460760) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (460770) tcp_client: Sending payload of type 10...[0m
+D (460770) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (460780) tcp_client: Waiting for payload of size 1[0m
+D (460780) tcp_client: Got byte: 01[0m
+[0;32mI (460790) tcp_client: Got response type 01[0m
+D (460790) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (460800) tcp_client: Sending payload of type 30...[0m
+D (460800) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (460850) tcp_client: Waiting for payload of size 15[0m
+D (460850) tcp_client: Got byte: 03[0m
+D (460850) tcp_client: Got byte: 00[0m
+D (460860) tcp_client: Got byte: 00[0m
+D (460860) tcp_client: Got byte: 00[0m
+D (460860) tcp_client: Got byte: 00[0m
+D (460870) tcp_client: Got byte: 00[0m
+D (460870) tcp_client: Got byte: 00[0m
+D (460870) tcp_client: Got byte: 00[0m
+D (460880) tcp_client: Got byte: 00[0m
+D (460880) tcp_client: Got byte: 00[0m
+D (460880) tcp_client: Got byte: 01[0m
+D (460890) tcp_client: Got byte: 0a[0m
+D (460890) tcp_client: Got byte: 03[0m
+D (460890) tcp_client: Got byte: 8d[0m
+D (460900) tcp_client: Got byte: 01[0m
+[0;32mI (460900) tcp_client: Got response type 03[0m
+[0;32mI (460910) tcp_client: Timeslot changed, new one is in 0 seconds.[0m
+D (460910) tcp_client: Got timeslot in 0, length of addresses 1[0m
+D (460920) tcp_client: Got byte: 03[0m
+D (460920) tcp_client: Got byte: 00[0m
+D (460930) tcp_client: Got byte: 00[0m
+D (460930) tcp_client: Got byte: 00[0m
+D (460930) tcp_client: Got byte: 00[0m
+D (460940) tcp_client: Got byte: 00[0m
+D (460940) tcp_client: Got byte: 00[0m
+D (460940) tcp_client: Got byte: 00[0m
+D (460950) tcp_client: Got byte: 00[0m
+D (460950) tcp_client: Got byte: 01[0m
+D (460950) tcp_client: Got byte: 00[0m
+D (460960) tcp_client: Got byte: 0a[0m
+D (460960) tcp_client: Got byte: 03[0m
+D (460970) tcp_client: Got byte: 8d[0m
+D (460970) tcp_client: Got byte: 01[0m
+D (460970) tcp_client: Got new server 10.3.141.1:5001 but we knew about that one already![0m
+[0;32mI (460980) tcp_client: Sending payload of type 01...[0m
+D (460990) tcp_client: Send queue empty[0m
+D (470990) tcp_client: In queue: 30[0m
+D (471000) socket: Trying to create socket...[0m
+D (471000) socket: Socket successfully created with file descriptor: 54[0m
+D (471000) socket: Trying to connect to 10.3.141.1:5001...[0m
+[0;32mI (471010) tcp_client: Sending payload of type 10...[0m
+D (471020) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (471020) tcp_client: Waiting for payload of size 1[0m
+D (471030) tcp_client: Got byte: 01[0m
+[0;32mI (471030) tcp_client: Got response type 01[0m
+D (471030) tcp_client: Got ACK for message of type 10[0m
+[0;32mI (471040) tcp_client: Sending payload of type 30...[0m
+D (471050) tcp_client: Waiting for size of incoming message.[0m
+[0;32mI (471090) tcp_client: Waiting for payload of size 15[0m
+D (471090) tcp_client: Got byte: 03[0m
+D (471090) tcp_client: Got byte: 00[0m
+D (471090) tcp_client: Got byte: 00[0m
+D (471100) tcp_client: Got byte: 00[0m
+D (471100) tcp_client: Got byte: 00[0m
+D (471100) tcp_client: Got byte: 00[0m
+D (471110) tcp_client: Got byte: 00[0m
+D (471110) tcp_client: Got byte: 00[0m
+D (471110) tcp_client: Got byte: 00[0m
+D (471120) tcp_client: Got byte: 00[0m
+D (471120) tcp_client: Got byte: 01[0m
+D (471130) tcp_client: Got byte: 0a[0m
+D (471130) tcp_client: Got byte: 03[0m
+D (471130) tcp_client: Got byte: 8d[0m
+D (471140) tcp_client: Got byte: 01[0m
+[0;32mI (471140) tcp_client: Got response type 03[0m
+[0;32mI (471140) tcp_client: Timeslot changed, new one is in 0 seconds.[0m
+D (471150) tcp_client: Got timeslot in 0, length of addresses 1[0m
+D (471160) tcp_client: Got byte: 03[0m
+D (471160) tcp_client: Got byte: 00[0m
+D (471160) tcp_client: Got byte: 00[0m
+D (471170) tcp_client: Got byte: 00[0m
+D (471170) tcp_client: Got byte: 00[0m
+D (471170) tcp_client: Got byte: 00[0m
+D (471180) tcp_client: Got byte: 00[0m
+D (471180) tcp_client: Got byte: 00[0m
+D (471190) tcp_client: Got byte: 00[0m
+D (471190) tcp_client: Got byte: 01[0m
+D (471190) tcp_client: Got byte: 00[0m
+D (471200) tcp_client: Got byte: 0a[0m
+D (471200) tcp_client: Got byte: 03[0m
+D (471200) tcp_client: Got byte: 8d[0m
+D (471210) tcp_client: Got byte: 01[0m
+D (471210) tcp_client: Got new server 10.3.141.1:5001 but we knew about that one already![0m
+[0;32mI (471220) tcp_client: Sending payload of ty

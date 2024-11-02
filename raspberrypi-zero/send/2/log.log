@@ -1,0 +1,672 @@
+/home/user/clientServerExample.py:96: DeprecationWarning: setDaemon() is deprecated, set the daemon attribute instead
+  t2.setDaemon(True)
+Starting...
+Is first device in layer
+Polling Config
+Handling incoming on 5001
+Loop
+Sending took: 0.0005631446838378906 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+'[93m'[DEBUG] Requesting Config![0m
+'[93m'[DEBUG] Awaiting Config![0m
+'[93m'[DEBUG] Trying to receive message[0m
+'[93m'[DEBUG] Expecting message of size 15[0m
+'[93m'[DEBUG] Received message of size 15[0m
+'[93m'[DEBUG] Config gotten! New Config: <messages.Config object at 0xb67afc50>[0m
+'[93m'[DEBUG] ACK sent![0m
+Connection Done, starting poll on intervall
+Sending took: 0.0011479854583740234 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.458076000213623 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0011029243469238281 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4098927974700928 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0011081695556640625 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4071729183197021 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005419254302978516 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3703696727752686 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.000514984130859375 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3809869289398193 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0004363059997558594 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4354889392852783 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005171298980712891 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3978402614593506 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009570121765136719 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4075367450714111 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009071826934814453 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.405296802520752 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009627342224121094 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4261677265167236 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.001219034194946289 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.5075950622558594 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005161762237548828 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.5588421821594238 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0011560916900634766 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4357621669769287 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.00043392181396484375 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3796370029449463 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009007453918457031 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.38108491897583 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.00043892860412597656 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4467120170593262 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005159378051757812 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4305291175842285 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005402565002441406 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.5153038501739502 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005278587341308594 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4753642082214355 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005109310150146484 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4372780323028564 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0010459423065185547 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3804221153259277 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005009174346923828 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3699829578399658 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.000926971435546875 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3826560974121094 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.000431060791015625 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4309077262878418 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005068778991699219 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4472179412841797 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0008919239044189453 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.440129041671753 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.00102996826171875 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4593889713287354 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009160041809082031 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.444364070892334 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0006930828094482422 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4089438915252686 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0004088878631591797 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3781633377075195 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009171962738037109 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3856008052825928 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0010738372802734375 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.5585579872131348 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005788803100585938 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4155588150024414 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0004591941833496094 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4839508533477783 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005130767822265625 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3624229431152344 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0008959770202636719 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3847463130950928 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005810260772705078 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4331059455871582 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0010378360748291016 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4094672203063965 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009601116180419922 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3820140361785889 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009028911590576172 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4582080841064453 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0010809898376464844 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4129478931427002 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0004258155822753906 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3887138366699219 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.00040602684020996094 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4270951747894287 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005183219909667969 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4056849479675293 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0004489421844482422 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.533994197845459 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005192756652832031 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3904199600219727 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0011000633239746094 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3833069801330566 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.00043392181396484375 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.394097089767456 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.00043582916259765625 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.449681043624878 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005159378051757812 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3711228370666504 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009107589721679688 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.5628089904785156 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0012199878692626953 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4208710193634033 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005121231079101562 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4505159854888916 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005800724029541016 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4348950386047363 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005960464477539062 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4121737480163574 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009000301361083984 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4290540218353271 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009059906005859375 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.5491583347320557 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0010838508605957031 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4677460193634033 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0012128353118896484 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.403242826461792 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0004889965057373047 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3828511238098145 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009319782257080078 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4091508388519287 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0004401206970214844 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4031901359558105 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.00040793418884277344 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4593069553375244 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009391307830810547 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.5958456993103027 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005147457122802734 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4457437992095947 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0008959770202636719 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3935179710388184 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0008900165557861328 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4449858665466309 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005166530609130859 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.411311149597168 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0004992485046386719 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4620440006256104 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.000579833984375 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.5280420780181885 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009331703186035156 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4435911178588867 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005152225494384766 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.396543025970459 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005159378051757812 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.427833080291748 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009210109710693359 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3954439163208008 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0012149810791015625 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4194960594177246 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005168914794921875 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4270110130310059 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005333423614501953 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3891847133636475 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0003960132598876953 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.405930995941162 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009331703186035156 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4270977973937988 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0006957054138183594 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.397824764251709 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005130767822265625 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4412758350372314 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009238719940185547 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4398541450500488 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005030632019042969 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.411525011062622 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0010807514190673828 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.367488145828247 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.000926971435546875 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4690439701080322 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0010709762573242188 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4416823387145996 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0010488033294677734 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4100301265716553 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009243488311767578 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4260609149932861 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0010800361633300781 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.5706522464752197 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0010478496551513672 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.416489839553833 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009012222290039062 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.496706247329712 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009379386901855469 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4304640293121338 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009047985076904297 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.426565170288086 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009279251098632812 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.386782169342041 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0004088878631591797 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4278712272644043 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0010709762573242188 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4383108615875244 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0012280941009521484 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4449291229248047 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0012319087982177734 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4053690433502197 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009307861328125 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3843910694122314 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.00043320655822753906 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4474961757659912 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005059242248535156 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4281179904937744 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005140304565429688 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.461867094039917 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0012140274047851562 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3842298984527588 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005018711090087891 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3760161399841309 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0009291172027587891 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.4219071865081787 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0005822181701660156 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3908460140228271 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0003960132598876953 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.3987619876861572 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.0010747909545898438 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.5945241451263428 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 0.000978708267211914 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
+Sending took: 1.399644136428833 seconds
+'[93m'[DEBUG] Awaiting ACK![0m
+'[93m'[DEBUG] Received ACK![0m
