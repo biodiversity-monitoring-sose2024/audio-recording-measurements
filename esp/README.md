@@ -1,5 +1,5 @@
 > [!NOTE]
-> This folder contains the raw measurements for the RPI Zero W
+> This folder contains the raw measurements for the ESP32 LyraT v4.3
 ![ESP32](../images/597902_1.webp)  
 > [Source](https://www.heise.de/news/ESP32-LyraT-V4-3-Soundmodul-mit-ESP32-4906420.html)
 ## Test setup
