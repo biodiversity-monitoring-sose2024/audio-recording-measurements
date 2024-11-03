@@ -12,7 +12,7 @@ type: dataset
 authors:
   - given-names: Rohling
     family-names: Jannick
-    email: jannick@rohli.ng
+    email: jrohling@uos.de
 repository-code: >-
   https://github.com/biodiversity-monitoring-sose2024/audio-recording-measurements
 license: Apache-2.0
