@@ -13,7 +13,7 @@ Self-developed ESP32 firmware for the ESP (https://github.com/biodiversity-monit
 ## Evaluation
 Generation of plots with matplotlib via [plot.py](tools/plot.py).  
 
-Generation of power consumption markdown tables via [markdown-from-measurements.py](tools/markdown-from-measurements.py) and generation from upload time tables from device specific log files for the [esp32](esp/tools/markdown-from-log.py) and [Raspberry Pi Zero](raspberrypi-zero/tools/markdown-from-log.py).  
+Generation of power consumption markdown tables via [markdown-from-measurements.py](tools/markdown-from-measurements.py) and generation of upload time tables from device specific log files for the [esp32](esp/tools/markdown-from-log.py) and [Raspberry Pi Zero](raspberrypi-zero/tools/markdown-from-log.py).  
 
 The images in the `pictures` folders were generated with ffmpeg and then OCR'd using [gImageReader](https://github.com/manisandro/gImageReader).
 

@@ -29,7 +29,7 @@ def parse_markdown_tables(filepath):
 
     return dataframes
 
-def plot_data(y_column, df_list, output_file, title):
+def plot_data(y_column, df_list, output_file, title, x_label):
     plt.figure(figsize=(12, 6))
     
     temporal_values = []
@@ -51,7 +51,7 @@ def plot_data(y_column, df_list, output_file, title):
     plt.axhline(y=overall_average, color='r', linestyle='--', linewidth=2, label=f'Overall Average = {overall_average:.2f}')
 
     plt.title(title)
-    plt.xlabel('Index')
+    plt.xlabel(x_label)
     plt.ylabel(y_column)
     plt.grid(True)
     plt.xticks(rotation=45)
@@ -69,6 +69,7 @@ def main():
     parser.add_argument('--table-index', type=int, default=0, help='Index of the table to plot (0-based)')
     parser.add_argument('--output-file', type=str, required=True, help='Output file to save the plot')
     parser.add_argument('--title', type=str, required=True, help='The title for the plot')
+    parser.add_argument('--x-label', type=str, required=True, help='The label for the X axis')
 
     args = parser.parse_args()
 
@@ -92,7 +93,7 @@ def main():
         dataframes.append(df)
 
     if dataframes:
-        plot_data(args.y_column, dataframes, args.output_file, args.title)
+        plot_data(args.y_column, dataframes, args.output_file, args.title, args.x_label)
         print(f"Plot saved to {args.output_file}")
     else:
         print("No valid data found for plotting.")
