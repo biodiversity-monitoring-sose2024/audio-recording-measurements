@@ -1,0 +1,19 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Comparison of two low power solutions for biodiversity
+  monitoring
+message: >-
+  If you use this dataset, please cite it using the metadata
+  from this file.
+type: dataset
+authors:
+  - given-names: Rohling
+    family-names: Jannick
+    email: jannick@rohli.ng
+repository-code: >-
+  https://github.com/biodiversity-monitoring-sose2024/audio-recording-measurements
+license: Apache-2.0
+commit: 900c09889e3098105edc6ce857ecd6930b9f38e9

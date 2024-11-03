@@ -59,7 +59,7 @@ def plot_data(y_column, df_list, output_file, title):
     plt.tight_layout()
 
     # Save the plot to a file
-    plt.savefig(output_file)
+    plt.savefig(output_file, transparent=True)
     plt.close()  # Close the plot to free up memory
 
 def main():
